@@ -1,0 +1,18 @@
+log:sml-rt(05-17_18-00-51).log
+External Device Detected
+MID=0x70, DID=0x00  OCR: c0ff8080
+CID: 70010045-45344541-340105e7-c7f5a4c3
+CSD: d04f0132-f5903ff-ffffffef-8a400061
+RCA: 0
+SCR: 0-0
+
+
+log:sml-rt(05-29_18-40-44).log
+External Device Detected
+MID=0x70, DID=0x00  OCR: c0ff8080
+CID: 70010045-45344541-340110b0-f2b115ed
+CSD: d04f0132-f5903ff-ffffffef-8a400061
+RCA: 0
+SCR: 0-0
+
+

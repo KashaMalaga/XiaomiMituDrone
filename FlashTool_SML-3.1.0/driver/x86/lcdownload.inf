@@ -1,0 +1,102 @@
+;*******************************************************************************
+;*
+;*  File: lcdownload.inf
+;*
+;*  Description: Installs usb driver 
+;*               only(XP/Vista/Windows7).
+;*
+;*  Copyright (C) 2013
+;*
+;*******************************************************************************
+
+[Version]
+signature="$WINDOWS NT$"
+Class=USB
+ClassGuid={36fc9e60-c465-11cf-8056-444553540000}
+Provider=%Pro%
+DriverVer=05/07/2013,1.18.0.5
+CatalogFile=lcdownload.cat
+
+[Manufacturer]
+%Pro% = Model, NTamd64
+
+[Model]
+%DeviceDesc% = ModelX, USB\VID_1ab7&PID_2100
+%DeviceDesc% = ModelX, USB\Vid_1ab7&Pid_1234&MI_00
+
+[Model.NTamd64]
+%DeviceDesc% = ModelX, USB\VID_1ab7&PID_2100
+%DeviceDesc% = ModelX, USB\Vid_1ab7&Pid_1234&MI_00
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[ModelX.NT]
+CopyFiles       = ModelX.NT.Copy
+AddReg          = ModelX.NT.AddReg
+
+[ModelX.NTamd64]
+CopyFiles       = ModelX.NTamd64.Copy
+AddReg          = ModelX.NTamd64.AddReg
+
+[ModelX.NT.AddReg]
+HKR,,NTMPDriver,,lcdownload.sys
+
+[ModelX.NTamd64.AddReg]
+HKR,,NTMPDriver,,lcdownload.sys
+
+[ModelX.NT.Services]
+AddService = %ServiceName%, 0x00000002, ModelX.NT.AddService
+
+[ModelX.NTamd64.Services]
+AddService = %ServiceName%, 0x00000002, ModelX.NT.AddService
+
+[ModelX.NT.AddService]
+DisplayName     = %ServiceDesc%
+ServiceType     = 1                     ;SERVICE_KERNEL_DRIVER
+StartType       = 3                     ;SERVICE_DEMAND_START
+ErrorControl    = 1                     ;SERVICE_ERROR_NORMAL
+ServiceBinary   = %10%\system32\drivers\lcdownload.sys
+AddReg          = ModelX.NT.AddService.AddReg
+
+[ModelX.NT.AddService.AddReg]
+HKR,,"DriverType",0x00010001,3
+HKR,,"LogFlags",0x00010001,0
+HKR,,"ResetInputEnable",0x00010001,0
+HKR,,"SSPMEnabled",0x00010001,0
+
+[DestinationDirs]
+ModelX.NT.Copy      = 10,system32\drivers
+ModelX.NTamd64.Copy = 10,system32\drivers
+ModelX.DelFile      = 10,system32\drivers
+
+[SourceDisksNames]
+1=%Pro.Disk%,,,
+
+[SourceDisksFiles]
+lcdownload.sys=1
+
+[SourceDisksFiles.amd64]
+lcdownload.sys=1
+
+[ModelX.NT.Copy]
+lcdownload.sys,lcdownload.sys,,COPYFLG_OVERWRITE_OLDER_ONLY
+
+[ModelX.NTamd64.Copy]
+lcdownload.sys,lcdownload.sys,,COPYFLG_OVERWRITE_OLDER_ONLY
+
+[ModelX_Uninstall]
+Delfiles = ModelX.DelFile
+
+[ModelX.DelFile]
+lcdownload.sys,,,0x00000001 
+
+[ModelX_Uninstall.Services]
+DelService = %ServiceName%, 0x200
+
+[Strings]
+Pro              = "LC DOWNLOAD"
+Pro.Disk         = "LC DownLoad USB Installation Media"
+ServiceName      = "LC_DOWNLOAD_SERVICE"
+ServiceDesc      = "LC DOWNLOAD SERVICE DISPLAY"
+DeviceDesc       = "LeadCore L2000 Download"
