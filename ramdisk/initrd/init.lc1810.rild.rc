@@ -1,0 +1,15 @@
+service rild0  /system/bin/rild -n 0   #for test
+    class main
+    socket rild0 stream 660 root radio
+    socket rild-debug stream 660 radio system
+    user root
+    group radio cache inet misc audio
+    disabled
+    
+service rild1  /system/bin/rild -n 1   #for test
+    class main
+    socket rild1 stream 660 root radio
+    socket rild-debug stream 660 radio system
+    user root
+    group radio cache inet misc audio
+    disabled

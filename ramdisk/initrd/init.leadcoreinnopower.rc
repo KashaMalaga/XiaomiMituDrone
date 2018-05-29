@@ -1,0 +1,109 @@
+import init.lc1813.3connective.rc
+import /init.lc1813.usb.rc
+
+on init
+    mkdir /mnt/shell/emulated 0700 shell shell
+    mkdir /storage/emulated 0555 root root
+    mkdir /storage/sdcard0 0555 root root
+    mkdir /storage/sdcard1 0555 root root
+#sdcard0 is internal  SD card
+    symlink /storage/sdcard0 /sdcard
+    symlink /storage/sdcard0 /mnt/sdcard
+#sdcard1 is real external  SD card
+    symlink /storage/sdcard1 /mnt/sdcard2
+    symlink /mnt/shell/emulated/0 /storage/emulated/legacy
+    export EXTERNAL_STORAGE /storage/sdcard0
+    export SECONDARY_STORAGE /storage/sdcard1
+    export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
+    export EMULATED_STORAGE_TARGET /storage/emulated
+    chown shell shell /dev/ttyS1
+    chown shell shell /dev/uhid
+    chown shell shell /dev/uinput
+    chmod 777 /dev/uhid
+    chmod 777 /dev/uinput
+    chmod 777 /dev/ttyS1
+    chown shell shell /proc/bluetooth/sleep/asleep
+    chown shell shell /proc/bluetooth/sleep/btwake
+    chown shell shell /proc/bluetooth/sleep/btwrite
+    chown shell shell /proc/bluetooth/sleep/hostwake
+    chown shell shell /proc/bluetooth/sleep/proto
+
+ #create tmp dir for ps data link
+    mkdir /tmp 01777 root root
+    mount tmpfs tmpfs /tmp
+    chmod 0771 /tmp
+    mkdir /tmp/run
+    mkdir /mnt/media_rw
+    mkdir /mnt/sdcard_rw
+    chmod 0755 /mnt/sdcard_rw
+    chmod 0755 /mnt/media_rw
+
+    # CPU freq
+    #write /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq 600000
+    chown shell shell /dev/ttyS1
+    chown shell shell /dev/uhid
+    chown shell shell /dev/uinput
+    chmod 777 uhid
+    chmod 777 uinput
+    chmod 777 ttyS1
+    chown shell shell /proc/bluetooth/sleep/*
+
+
+on fs
+    # mount partitions
+    mount_all /fstab.leadcoreinnopower
+    #If no sdcard, to prevent the failure of mount_all
+    #mount vfat /dev/block/platform/comip-mmc.0/mmcblk1p1 /mnt/sdcard_rw wait rw
+    mount vfat /dev/block/mmcblk1p1 /mnt/sdcard_rw wait rw
+    # If no amt file, to prevent the failure of mount_all
+    # mount ext4 /dev/block/platform/comip-mmc.1/by-name/amt /amt wait rw
+    # copy /amt/vbatt /proc/driver/comip_battery
+    setprop ro.crypto.fuse_sdcard true
+    chmod 777 /data/etc/hack24g.sh
+    start softap
+    start uav_sysm
+
+on post-fs
+    #set audio gain
+    # start userconfigaudio
+    # start start_zram
+    # start format_udisk
+    # misc & fota partitions
+    chown system system /dev/block/mmcblk0p15
+    chmod 0660 /dev/block/mmcblk0p15
+    chown system system /dev/block/mmcblk0p3
+    chmod 0660 /dev/block/mmcblk0p3
+    mount vfat /dev/block/platform/comip-mmc.1/by-name/udisk /mnt/media_rw wait rw
+
+on post-fs-data
+
+on boot
+    # For Bluetooth
+    chmod 0666 /dev/ttyS1
+    chmod 0666 /sys/class/rfkill/rfkill0/state
+    chmod 0666 /proc/bluetooth/sleep/proto
+    chmod 0666 /proc/bluetooth/sleep/btwake
+    chmod 0666 /proc/bluetooth/sleep/hostwake
+    chmod 0666 /proc/bluetooth/sleep/btwrite
+
+    chown system system /sys/class/input/input2/enable
+
+# virtual sdcard daemon running as media_rw (1023)
+#service sdcard /system/bin/sdcard /data/media /mnt/shell/emulated 1023 1023
+#    class late_start
+
+    chown system system /data/etc/storage.config
+
+#on property:persist.sys.emmc.first=1
+#     start format_udisk
+#     setprop persist.sys.emmc.first 0
+
+service format_udisk /system/bin/sh /system/bin/emmc_format.sh  udisk
+   class core
+   oneshot
+
+# service userconfigaudio /system/bin/user_config_audio.sh
+#    oneshot
+
+# service start_zram /init_start_zram.sh
+#    oneshot

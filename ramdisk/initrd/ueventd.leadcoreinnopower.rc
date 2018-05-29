@@ -1,0 +1,2 @@
+/dev/mali                 0777   system     graphics
+/dev/ump                  0777   system     graphics	

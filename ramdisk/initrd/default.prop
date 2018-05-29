@@ -1,0 +1,11 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=1
+persist.sys.usb.config=mass_storage,serial,adb
+persist.sys.uav.log.config=0
+persist.sys.uav.usb.plug=0
+persist.sys.cp.reset.enable=1
+persist.mass_storage.enable=true
