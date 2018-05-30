@@ -14,3 +14,7 @@ Just needed to edit:
  4: 4.9HZ BAND
  
 gAPChannelSelectOperatingBand=0
+
+Added: File to Have 5Ghz Wifi in Europe
+mi_drone_mini_KashaMalaga_5Ghz_userdata.bins
+
