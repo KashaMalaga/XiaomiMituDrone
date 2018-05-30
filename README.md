@@ -15,6 +15,7 @@ Just needed to edit:
  
 gAPChannelSelectOperatingBand=0
 
+<img src="https://img.imgur.com/0BW2LpM.png" width="100%"></img>
 Added: File to Have 5Ghz Wifi in Europe
 mi_drone_mini_KashaMalaga_5Ghz_userdata.bins
 
