@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Siirry etusivulle</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Siirry ylös</string>
+    <string name="e">Lisää</string>
+    <string name="f">Valmis</string>
+    <string name="g">Näytä kaikki</string>
+    <string name="h">Valitse sovellus</string>
+    <string name="i">POIS KÄYTÖSTÄ</string>
+    <string name="j">KÄYTÖSSÄ</string>
+    <string name="k">Haku…</string>
+    <string name="l">Tyhjennä kysely</string>
+    <string name="m">Hakulauseke</string>
+    <string name="n">Haku</string>
+    <string name="o">Lähetä kysely</string>
+    <string name="p">Puhehaku</string>
+    <string name="q">Jakaminen:</string>
+    <string name="r">Jakaminen: %s</string>
+    <string name="s">Kutista</string>
+    <string name="t">Haku</string>
+    <string name="u">999+</string>
+    <string name="v">Mitä tapahtuu?</string>
+    <string name="w">Tykkää twiitistä</string>
+    <string name="x">Kumoa tykkäys</string>
+    <string name="y">Ladataan twiittiä</string>
+    <string name="z">Kirjaudu Twitter-tunnuksellasi</string>
+    <string name="a0">140</string>
+    <string name="a1">pysäytä</string>
+    <string name="a2">toista</string>
+    <string name="a3">Twiittaa</string>
+    <string name="a4">Yksityisyyskuvake</string>
+    <string name="a5">d.M.y</string>
+    <string name="a6">d. MMM</string>
+    <string name="a7">toista uudelleen</string>
+    <string name="a8">Uudelleentwiitannut %1$s</string>
+    <string name="a9">Katso käyttäjän @%1$s twiitti: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Twiitti käyttäjältä %1$s (@%2$s)</string>
+    <string name="aa">Jaa twiitti</string>
+    <string name="ab">Tämä on sponsoroitu mainos</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Twiitin mediasisältö</string>
+</resources>

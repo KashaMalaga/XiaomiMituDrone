@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">%d ชม.</item>
+        <item quantity="one">1ชม.</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">1 นาที</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d วิ</item>
+        <item quantity="one">1วิ</item>
+    </plurals>
+</resources>

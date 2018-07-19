@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/i7" android:layout_width="fill_parent" android:layout_height="86.599976dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/i8" android:background="@drawable/lm" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/rw" android:background="#a5000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.fimi.album.widget.DownloadStateView android:id="@id/rx" android:visibility="invisible" android:layout_width="28.599976dip" android:layout_height="28.599976dip" android:layout_marginTop="28.299988dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#66ffffff" android:id="@id/ry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11.5dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/rz" android:background="#a5000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.fimi.album.widget.MediaStrokeTextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/i9" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/s0" android:background="@drawable/la" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="7.0dip" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/s1" android:background="@drawable/lg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/i_" android:background="@drawable/ku" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

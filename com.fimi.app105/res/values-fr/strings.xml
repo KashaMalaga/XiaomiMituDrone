@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">"Revenir à l'accueil"</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Revenir en haut de la page</string>
+    <string name="e">"Plus d'options"</string>
+    <string name="f">OK</string>
+    <string name="g">Tout afficher</string>
+    <string name="h">Sélectionner une application</string>
+    <string name="i">DÉSACTIVÉ</string>
+    <string name="j">ACTIVÉ</string>
+    <string name="k">Rechercher…</string>
+    <string name="l">Effacer la requête</string>
+    <string name="m">Requête de recherche</string>
+    <string name="n">Rechercher</string>
+    <string name="o">Envoyer la requête</string>
+    <string name="p">Recherche vocale</string>
+    <string name="q">Partager avec</string>
+    <string name="r">Partager avec %s</string>
+    <string name="s">Réduire</string>
+    <string name="t">Rechercher</string>
+    <string name="u">>999</string>
+    <string name="v">Que se passe-t-il ?</string>
+    <string name="w">Aimer le Tweet</string>
+    <string name="x">Ne plus aimer</string>
+    <string name="y">Chargement du Tweet</string>
+    <string name="z">Se connecter avec Twitter</string>
+    <string name="a0">140</string>
+    <string name="a1">pause</string>
+    <string name="a2">lire</string>
+    <string name="a3">Tweet</string>
+    <string name="a4">Icône de Confidentialité</string>
+    <string name="a5">d/M/y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">relire</string>
+    <string name="a8">Retweeté par %1$s</string>
+    <string name="a9">Lisez le Tweet de @%1$s : https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Tweet de %1$s (@%2$s)</string>
+    <string name="aa">Partager le Tweet</string>
+    <string name="ab">Ceci est une publicité sponsorisée</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Média du Tweet</string>
+</resources>

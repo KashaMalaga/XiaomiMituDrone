@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ہوم پر نیویگیٹ کریں</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">اوپر نیویگیٹ کریں</string>
+    <string name="e">مزید اختیارات</string>
+    <string name="f">ہو گیا</string>
+    <string name="g">سبھی دیکھیں</string>
+    <string name="h">ایک ایپ منتخب کریں</string>
+    <string name="i">آف</string>
+    <string name="j">آن</string>
+    <string name="k">تلاش کریں…</string>
+    <string name="l">استفسار صاف کریں</string>
+    <string name="m">استفسار تلاش کریں</string>
+    <string name="n">تلاش کریں</string>
+    <string name="o">استفسار جمع کرائیں</string>
+    <string name="p">صوتی تلاش</string>
+    <string name="q">اشتراک کریں مع</string>
+    <string name="r">‏%s کے ساتھ اشتراک کریں</string>
+    <string name="s">سکیڑیں</string>
+    <string name="t">تلاش</string>
+    <string name="u">‎999+‎</string>
+    <string name="v">کیا ہو رہا ہے؟</string>
+    <string name="w">ٹویٹ پسند کریں</string>
+    <string name="x">پسند کو منسوخ کریں</string>
+    <string name="y">ٹویٹ لوڈ ہو رہی ہے</string>
+    <string name="z">ٹوئٹر سے لاگ ان کریں</string>
+    <string name="a0">140</string>
+    <string name="a1">روکیں</string>
+    <string name="a2">چلائیں</string>
+    <string name="a3">ٹویٹ</string>
+    <string name="a4">پرائیویسی آئیکن</string>
+    <string name="a5">d/M/y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">دوبارہ چلائیں</string>
+    <string name="a8">%1$s کی ریٹویٹ کردہ</string>
+    <string name="a9">‎@%1$s کی ٹویٹ دیکھیں: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">%1$s (‎@%2$s) کی ٹویٹ</string>
+    <string name="aa">ٹویٹ شیئر کریں</string>
+    <string name="ab">یہ اسپانسرشدہ اشتہار ہے</string>
+    <string name="ac">%1$s۔ %2$s۔ %3$s۔</string>
+    <string name="ad">میڈیا ٹویٹ کریں</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/nc" />
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/na" />
+    <item android:state_checked="false" android:drawable="@drawable/nb" />
+    <item android:state_checked="true" android:drawable="@drawable/n_" />
+</selector>

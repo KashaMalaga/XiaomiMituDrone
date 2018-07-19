@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">1 jam</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d mnt</item>
+        <item quantity="one">1 mnt</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d dtk</item>
+        <item quantity="one">1 dtk</item>
+    </plurals>
+</resources>

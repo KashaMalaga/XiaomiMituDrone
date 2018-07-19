@@ -16,3 +16,30 @@ RCA: 0
 SCR: 0-0
 
 
+log:sml-rt(06-01_20-40-28).log
+External Device Detected
+MID=0x70, DID=0x00  OCR: c0ff8080
+CID: 70010045-45344541-340110b0-f2b115ed
+CSD: d04f0132-f5903ff-ffffffef-8a400061
+RCA: 0
+SCR: 0-0
+
+
+log:sml-rt(07-12_18-32-09).log
+External Device Detected
+MID=0x70, DID=0x00  OCR: c0ff8080
+CID: 70010045-45344541-340110b0-f2b115ed
+CSD: d04f0132-f5903ff-ffffffef-8a400061
+RCA: 0
+SCR: 0-0
+
+
+log:sml-rt(07-17_16-50-32).log
+External Device Detected
+MID=0x70, DID=0x00  OCR: c0ff8080
+CID: 70010045-45344541-340110b0-f2b115ed
+CSD: d04f0132-f5903ff-ffffffef-8a400061
+RCA: 0
+SCR: 0-0
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fimi.kernel.percent.PercentRelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_marginBottomPercent="40%h"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.fimi.x9.view.X9MarqueeView android:id="@id/hj" android:layout_width="@dimen/hi" android:layout_height="wrap_content" android:fillViewport="true" />
+        <com.fimi.x9.view.X9MarqueeView android:id="@id/hk" android:layout_width="@dimen/hi" android:layout_height="wrap_content" android:fillViewport="true" />
+        <com.fimi.x9.view.X9MarqueeView android:id="@id/hl" android:layout_width="@dimen/hi" android:layout_height="wrap_content" android:fillViewport="true" />
+        <com.fimi.x9.view.X9MarqueeView android:id="@id/hm" android:layout_width="@dimen/hi" android:layout_height="wrap_content" android:fillViewport="true" />
+        <com.fimi.x9.view.X9MarqueeView android:id="@id/hn" android:layout_width="@dimen/hi" android:layout_height="wrap_content" android:fillViewport="true" />
+    </com.fimi.kernel.percent.PercentRelativeLayout>
+</merge>

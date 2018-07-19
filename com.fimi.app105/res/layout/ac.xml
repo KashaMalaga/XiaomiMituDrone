@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.libperson.widget.TitleView android:id="@id/ee" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <WebView android:id="@id/gm" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ee" android:overScrollMode="never" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

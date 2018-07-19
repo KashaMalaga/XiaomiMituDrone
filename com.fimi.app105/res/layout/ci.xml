@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/l1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:layout_marginTopPercent="32.7777778%">
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/ev" android:id="@id/l2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" />
+        <TextView android:textSize="@dimen/hc" android:textColor="@color/es" android:id="@id/l3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/8" />
+        <TextView android:textSize="@dimen/hg" android:textColor="@color/ew" android:layout_gravity="center" android:id="@id/l4" android:paddingLeft="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/m7" android:layout_alignTop="@id/l3" android:layout_alignBottom="@id/l3" />
+    </LinearLayout>
+    <com.fimi.widget.LetterSpacingTextView android:textSize="@dimen/h9" android:textColor="@color/et" android:gravity="center" android:id="@id/l5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/m6" android:layout_below="@id/l1" android:layout_centerHorizontal="true" app:layout_marginTopPercent="2.73%h" />
+    <Button android:textSize="@dimen/dy" android:textColor="@drawable/fj" android:id="@id/l6" android:background="@drawable/fm" android:clickable="true" android:layout_width="234.0dip" android:layout_height="41.0dip" android:text="@string/m5" android:layout_below="@id/l5" android:layout_centerHorizontal="true" app:layout_marginTopPercent="8.88888889%h" style="?android:attr/borderlessButtonStyle" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

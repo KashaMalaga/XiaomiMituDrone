@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/gj" android:layout_width="62.0dip" android:layout_height="62.0dip" android:layout_marginTop="150.0dip" android:scaleType="center" android:layout_centerHorizontal="true" />
+    <com.fimi.widget.LetterSpacingTextView android:textSize="14.0dip" android:textColor="#b2ffffff" android:id="@id/el" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/d2" android:layout_below="@id/gj" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.599976dip" android:textColor="#99ffffff" android:id="@id/gk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.599976dip" android:text="@string/l9" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

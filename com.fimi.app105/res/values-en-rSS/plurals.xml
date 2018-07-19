@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">[[59359]] %dh</item>
+        <item quantity="one">[[59358]] 1h</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">[[59357]] %dm</item>
+        <item quantity="one">[[59356]] 1m</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">[[59355]] %ds</item>
+        <item quantity="one">[[59354]] 1s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.kernel.percent.PercentRelativeLayout android:paddingBottom="16.363617dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/lq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.90909dip">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/ev" android:id="@id/lr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" />
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/es" android:id="@id/l3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/8" />
+            <TextView android:textSize="@dimen/hg" android:textStyle="bold" android:textColor="@color/ew" android:layout_gravity="center" android:id="@id/ls" android:paddingLeft="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mk" android:layout_alignTop="@id/l3" android:layout_alignBottom="@id/l3" />
+        </LinearLayout>
+        <com.fimi.widget.LetterSpacingTextView android:textSize="@dimen/h9" android:textColor="@color/et" android:id="@id/lt" android:layout_width="271.17188dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hb" android:layout_marginTop="13.363617dip" android:text="@string/ml" android:layout_below="@id/lq" />
+        <com.fimi.widget.LetterSpacingTextView android:textSize="@dimen/h9" android:textColor="@color/et" android:id="@id/lu" android:layout_width="271.17188dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hb" android:layout_marginTop="11.181793dip" android:text="@string/mm" android:layout_below="@id/lt" />
+    </com.fimi.kernel.percent.PercentRelativeLayout>
+    <ImageView android:id="@id/lb" android:background="@drawable/xn" android:layout_alignParentRight="true" app:layout_widthPercent="88.79%h" app:layout_heightPercent="90.37%h" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

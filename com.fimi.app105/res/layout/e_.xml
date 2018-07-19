@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/qr" android:background="@drawable/pe" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/qs">
+        <EditText android:textSize="14.0dip" android:textColor="@color/em" android:textColorHint="#ffb5b5b5" android:id="@id/qt" android:background="@null" android:focusable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:hint="@string/fv" android:maxLines="1" android:password="true" android:singleLine="true" android:layout_weight="1.0" android:inputType="numberPassword" android:textCursorDrawable="@null" />
+        <ImageView android:id="@id/qu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nd" android:layout_weight="0.0" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/qs" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/em" android:id="@id/qv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/qw" android:background="@drawable/u_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

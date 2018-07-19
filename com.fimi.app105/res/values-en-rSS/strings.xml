@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="v">"[[141545]] What's Happening?"</string>
+    <string name="w">[[141901]] Like Tweet</string>
+    <string name="x">[[141902]] Undo Like</string>
+    <string name="y">[[60974]] Loading Tweet</string>
+    <string name="z">[[94020]] Log in with Twitter</string>
+    <string name="a0">[[141547]] 140</string>
+    <string name="a1">[[147607]] pause</string>
+    <string name="a2">[[147606]] play</string>
+    <string name="a3">[[141546]] Tweet</string>
+    <string name="a4">[[153332]] Privacy Icon</string>
+    <string name="a5">[[59353]] MM/dd/yy</string>
+    <string name="a6">[[59352]] MMM dd</string>
+    <string name="a7">[[147608]] replay</string>
+    <string name="a8">[[99301]] Retweeted by %1$s</string>
+    <string name="a9">"[[60977]] Check out @%1$s's Tweet: https://twitter.com/%1$s/status/%2$s"</string>
+    <string name="a_">[[60978]] Tweet from %1$s (@%2$s)</string>
+    <string name="aa">[[60976]] Share Tweet</string>
+    <string name="ab">[[153331]] This is a sponsored ad</string>
+    <string name="ac">[[60975]] %1$s. %2$s. %3$s.</string>
+    <string name="ad">[[156357]] Tweet Media</string>
+</resources>

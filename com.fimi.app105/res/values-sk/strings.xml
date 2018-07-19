@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Prejsť na plochu</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Prejsť hore</string>
+    <string name="e">Ďalšie možnosti</string>
+    <string name="f">Hotovo</string>
+    <string name="g">Zobraziť všetko</string>
+    <string name="h">Zvoľte aplikáciu</string>
+    <string name="i">VYPNUTÉ</string>
+    <string name="j">ZAPNUTÉ</string>
+    <string name="k">Vyhľadať…</string>
+    <string name="l">Vymazať dopyt</string>
+    <string name="m">Vyhľadávací dopyt</string>
+    <string name="n">Hľadať</string>
+    <string name="o">Odoslať dopyt</string>
+    <string name="p">Hlasové vyhľadávanie</string>
+    <string name="q">Zdieľať pomocou</string>
+    <string name="r">Zdieľať pomocou %s</string>
+    <string name="s">Zbaliť</string>
+    <string name="t">Vyhľadávanie</string>
+    <string name="u">999+</string>
+    <string name="v">Čo sa deje?</string>
+    <string name="w">Obľúbiť si Tweet</string>
+    <string name="x">Zrušiť označenie Páči sa mi to</string>
+    <string name="y">Načítava sa Tweet</string>
+    <string name="z">Prihlásiť sa na Twitter</string>
+    <string name="a0">140</string>
+    <string name="a1">pozastaviť</string>
+    <string name="a2">prehrať</string>
+    <string name="a3">Tweetnuť</string>
+    <string name="a4">Ikona súkromia</string>
+    <string name="a7">prehrať znova</string>
+    <string name="a8">Retweetnuté používateľom %1$s</string>
+    <string name="a9">Pozrite si Tweet od používateľa @%1$s https://twitter.com/%1$s/stav/%2$s</string>
+    <string name="a_">Tweet od používateľa %1$s (@%2$s)</string>
+    <string name="aa">Zdieľať Tweet</string>
+    <string name="ab">Toto je sponzorovaná reklama</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Tweetnuť médiá</string>
+</resources>

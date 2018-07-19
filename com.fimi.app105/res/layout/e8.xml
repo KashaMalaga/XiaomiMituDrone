@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/b8" android:layout_width="fill_parent" android:layout_height="72.599976dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/qm" android:layout_width="15.299988dip" android:layout_height="15.299988dip" android:layout_marginLeft="27.299988dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/cx" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/qn" android:background="@drawable/p8" android:visibility="gone" android:layout_width="15.299988dip" android:layout_height="15.299988dip" android:layout_marginLeft="27.299988dip" android:indeterminate="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/p" android:id="@id/qo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.299988dip" android:text="正在检查更新..." android:layout_toRightOf="@id/qm" android:layout_centerVertical="true" />
+</RelativeLayout>

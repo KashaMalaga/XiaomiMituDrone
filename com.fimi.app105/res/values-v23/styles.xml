@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="e" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="bj" parent="@style/ls" />
+    <style name="bk" parent="@style/lt" />
+    <style name="bs" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="d1" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="d2" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="d3" parent="@android:style/Widget.Material.Button.Colored" />
+    <style name="d4" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="d5" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="ls" parent="@style/lq">
+        <item name="cn">?android:actionBarItemBackground</item>
+        <item name="co">?android:actionMenuTextAppearance</item>
+        <item name="cp">?android:actionMenuTextColor</item>
+        <item name="eh">@drawable/gv</item>
+        <item name="ez">?android:ratingBarStyleIndicator</item>
+        <item name="f0">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="lt" parent="@style/lr">
+        <item name="cn">?android:actionBarItemBackground</item>
+        <item name="co">?android:actionMenuTextAppearance</item>
+        <item name="cp">?android:actionMenuTextColor</item>
+        <item name="eh">@drawable/gv</item>
+        <item name="ez">?android:ratingBarStyleIndicator</item>
+        <item name="f0">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

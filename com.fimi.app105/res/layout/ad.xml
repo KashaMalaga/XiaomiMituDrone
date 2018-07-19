@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/uy" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/gn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:gravity="center" android:id="@id/go" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <com.fimi.x9.view.X9SelectButtonView android:id="@id/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="29.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0dip" android:textColor="@drawable/f6" android:gravity="center" android:id="@id/gp" android:clickable="true" android:layout_width="70.0dip" android:layout_height="54.26999dip" android:text="@string/ms" android:layout_alignParentRight="true" />
+</RelativeLayout>

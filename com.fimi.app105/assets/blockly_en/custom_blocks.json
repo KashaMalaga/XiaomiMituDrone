@@ -1,0 +1,1131 @@
+[
+    {
+        "type": "control_start",
+        "message0": "当 %1 被点击",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_start.png",
+                "width": 20,
+                "height": 20,
+                "alt": ""
+            }
+        ],
+        "nextStatement": null,
+        "colour": "#06A170",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_takeoff",
+        "message0": "%1 立即起飞",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_takeoff.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            }
+        ],
+        "isImage":true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_takeoff_on_hand",
+        "message0": "%1 掌上起飞",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_takeoff_on_hand.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            }
+        ],
+        "isImage":true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_landing",
+        "message0": "%1 降落",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_landing.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            }
+        ],
+        "isImage":true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_hover",
+        "message0": "%1 悬停",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_hover.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            }
+        ],
+        "isImage":true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_accelerator",
+        "message0": "%1 升降 %2 ，持续 %3 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_accelerator.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_course",
+        "message0": "%1 航向 %2 ，持续 %3 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_course.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_pitch",
+        "message0": "%1 前后 %2 ，持续 %3 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_pitch.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_roll",
+        "message0": "%1 左右 %2 ，持续 %3 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_roll.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_accelerator_course",
+        "message0": "%1 升降 %2 ，航向 %3 ，持续 %4 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_accelerator_course.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "ACCELERATOR",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "COURSE",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_accelerator_pitch",
+        "message0": "%1 升降 %2 ，前后 %3 ，持续 %4 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_accelerator_pitch.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "ACCELERATOR",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "PITCH",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_accelerator_roll",
+        "message0": "%1 升降 %2 ，左右 %3 ，持续 %4 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_accelerator_roll.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "ACCELERATOR",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "ROLL",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_course_pitch",
+        "message0": "%1 航向 %2 ，前后 %3 ，持续 %4 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_course_pitch.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "COURSE",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "PITCH",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_course_roll",
+        "message0": "%1 航向 %2 ，左右 %3 ，持续 %4 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_course_roll.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "COURSE",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "ROLL",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_pitch_roll",
+        "message0": "%1 前后 %2 ，左右 %3 ，持续 %4 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_pitch_roll.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "PITCH",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "ROLL",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_omnidirectional",
+        "message0": "%1 升降 %2 ，航向 %3 ，前后 %4 ，左右 %5 ，持续 %6 秒",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_omnidirectional.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "ACCELERATOR",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "COURSE",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "PITCH",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "ROLL",
+                "check": "Number"
+            },
+            {
+                "type": "input_value",
+                "name": "TIME",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#5C6682",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_flip_pitch_down",
+        "message0": "%1 向前空翻 %2 次",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_flip_pitch_down.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_flip_pitch_up",
+        "message0": "%1 向后空翻 %2 次",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_flip_pitch_up.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_flip_roll_down",
+        "message0": "%1 向左空翻 %2 次",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_flip_roll_down.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "increaseHeight":true,
+        "isImage":true,
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_flip_roll_up",
+        "message0": "%1 向右空翻 %2 次",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "images/block_flip_roll_up.png",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_move_before",
+        "message0": "%1 向前移动 %2 cm",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "block_flip_pitch_down",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_move_after",
+        "message0": "%1 向后移动 %2 cm",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "block_flip_pitch_down",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_move_left",
+        "message0": "%1 向左移动 %2 cm",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "block_flip_pitch_down",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_move_right",
+        "message0": "%1 向右移动 %2 cm",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "block_flip_pitch_down",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_move_up",
+        "message0": "%1 向上移动 %2 cm",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "block_flip_pitch_down",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_move_down",
+        "message0": "%1 向下移动 %2 cm",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "block_flip_pitch_down",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_rotate_CW",
+        "message0": "%1 顺时针旋转 %2 度",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "block_flip_pitch_down",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "control_rotate_CCW",
+        "message0": "%1 逆时针旋转 %2 度",
+        "args0": [
+            {
+                "type": "field_image",
+                "src": "block_flip_pitch_down",
+                "width": 25,
+                "height": 25,
+                "alt": ""
+            },
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#3262CE",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "condition_takeoff_ready",
+        "message0": "飞机可以起飞",
+        "output": "Boolean",
+        "colour": "#8249EA",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "condition_takeoff_not_ready",
+        "message0": "飞机不可以起飞",
+        "output": "Boolean",
+        "colour": "#8249EA",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "condition_in_flight",
+        "message0": "飞机已起飞",
+        "output": "Boolean",
+        "colour": "#8249EA",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "condition_not_in_flight",
+        "message0": "飞机未起飞",
+        "output": "Boolean",
+        "colour": "#8249EA",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "condition_flip_ready",
+        "message0": "飞机可翻滚",
+        "output": "Boolean",
+        "colour": "#8249EA",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "condition_flip_not_ready",
+        "message0": "飞机不可翻滚",
+        "output": "Boolean",
+        "colour": "#8249EA",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "condition_is_hover",
+        "message0": "飞机悬停中",
+        "output": "Boolean",
+        "colour": "#8249EA",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "condition_negate",
+        "message0": "非 %1",
+        "args0": [
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Boolean"
+            }
+        ],
+        "output": "Boolean",
+        "colour": "#8249EA",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "logic_if",
+        "message0": "如果 %1 执行 %2",
+        "args0": [
+            {
+                "type": "input_value",
+                "name": "BOOL",
+                "check": "Boolean"
+            },
+            {
+                "type": "input_statement",
+                "name": "TRUE"
+            }
+        ],
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#CF6B22",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "logic_if_else",
+        "message0": "如果 %1 执行 %2 否则 %3",
+        "args0": [
+            {
+                "type": "input_value",
+                "name": "BOOL",
+                "check": "Boolean"
+            },
+            {
+                "type": "input_statement",
+                "name": "TRUE"
+            },
+            {
+                "type": "input_statement",
+                "name": "FALSE"
+            }
+        ],
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#CF6B22",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "logic_repeat_ext",
+        "message0": "重复 %1 次 %2 执行 %3",
+        "args0": [
+            {
+                "type": "input_value",
+                "name": "COUNT",
+                "check": "Number"
+            },
+            {
+                "type": "input_dummy"
+            },
+            {
+                "type": "input_statement",
+                "name": "DO"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#CF6B22",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "logic_while",
+        "message0": "重复执行 %1",
+        "args0": [
+            {
+                "type": "input_statement",
+                "name": "DO"
+            }
+        ],
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#CF6B22",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "logic_while_until",
+        "message0": "重复执行直到 %1 %2",
+        "args0": [
+            {
+                "type": "input_value",
+                "name": "BOOL",
+                "check": "Boolean"
+            },
+            {
+                "type": "input_statement",
+                "name": "DO"
+            }
+        ],
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#CF6B22",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "logic_break",
+        "message0": "中断循环",
+        "previousStatement": null,
+        "colour": "#CF6B22",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "logic_continue",
+        "message0": "继续下一次循环",
+        "previousStatement": null,
+        "colour": "#CF6B22",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "logic_keep_waiting",
+        "message0": "等待直到 %1",
+        "args0": [
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Boolean"
+            }
+        ],
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#CF6B22",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "logic_sleep",
+        "message0": "等待 %1 秒",
+        "args0": [
+            {
+                "type": "input_value",
+                "name": "VALUE",
+                "check": "Number"
+            }
+        ],
+        "inputsInline": true,
+        "previousStatement": null,
+        "nextStatement": null,
+        "colour": "#CF6B22",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "custom_number",
+        "message0": "%1",
+        "args0": [
+            {
+                "type": "field_number",
+                "name": "NUM",
+                "value": 0,
+                "min": 0,
+                "max": 300,
+                "precision": 1,
+                "custom": "number"
+            }
+        ],
+        "output": "Number",
+        "colour": "#ababab",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "custom_accelerator",
+        "message0": "%1",
+        "args0": [
+            {
+                "type": "field_number",
+                "name": "NUM",
+                "value": 0,
+                "min": -10,
+                "max": 10,
+                "precision": 1,
+                "custom": "accelerator"
+            }
+        ],
+        "output": "Number",
+        "colour": "#ababab",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "custom_course",
+        "message0": "%1",
+        "args0": [
+            {
+                "type": "field_number",
+                "name": "NUM",
+                "value": 0,
+                "min": -10,
+                "max": 10,
+                "precision": 1,
+                "custom": "course"
+            }
+        ],
+        "output": "Number",
+        "colour": "#ababab",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "custom_pitch",
+        "message0": "%1",
+        "args0": [
+            {
+                "type": "field_number",
+                "name": "NUM",
+                "value": 0,
+                "min": -10,
+                "max": 10,
+                "precision": 1,
+                "custom": "pitch"
+            }
+        ],
+        "output": "Number",
+        "colour": "#ababab",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "custom_roll",
+        "message0": "%1",
+        "args0": [
+            {
+                "type": "field_number",
+                "name": "NUM",
+                "value": 0,
+                "min": -10,
+                "max": 10,
+                "precision": 1,
+                "custom": "roll"
+            }
+        ],
+        "output": "Number",
+        "colour": "#ababab",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "custom_move_number",
+        "message0": "%1",
+        "args0": [
+            {
+                "type": "field_number",
+                "name": "NUM",
+                "value": 0,
+                "min": 50,
+                "max": 500,
+                "precision": 1,
+                "custom": "number"
+            }
+        ],
+        "output": "Number",
+        "colour": "#ababab",
+        "tooltip": "",
+        "helpUrl": ""
+    },
+    {
+        "type": "custom_rotate_number",
+        "message0": "%1",
+        "args0": [
+            {
+                "type": "field_number",
+                "name": "NUM",
+                "value": 0,
+                "min": 45,
+                "max": 180,
+                "precision": 1,
+                "custom": "number"
+            }
+        ],
+        "output": "Number",
+        "colour": "#ababab",
+        "tooltip": "",
+        "helpUrl": ""
+    }
+]

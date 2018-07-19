@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fimi.libperson.widget.TitleView android:id="@id/ee" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:textSize="13.299988dip" android:textColor="#cc000000" android:textColorHint="#33000000" android:layout_gravity="center_vertical" android:id="@id/ef" android:background="@drawable/e0" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginLeft="17.599976dip" android:layout_marginTop="28.299988dip" android:layout_marginRight="17.599976dip" android:hint="@string/cr" android:singleLine="true" android:layout_below="@id/ee" android:layout_centerHorizontal="true" android:textCursorDrawable="@drawable/e7" />
+    <ImageView android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/p2" android:scaleType="center" android:layout_alignLeft="@id/ef" android:layout_alignTop="@id/ef" />
+    <ImageButton android:id="@id/eg" android:background="@drawable/pm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/ef" android:layout_alignRight="@id/ef" />
+    <com.fimi.widget.sticklistview.util.StickyListHeadersListView android:id="@id/eh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_below="@id/ef" android:overScrollMode="never" />
+    <com.fimi.widget.sticklistview.LetterSideBar android:id="@id/ei" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_below="@id/ef" android:layout_alignParentRight="true" />
+</RelativeLayout>

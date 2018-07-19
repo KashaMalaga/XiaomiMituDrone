@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">التنقل إلى الشاشة الرئيسية</string>
+    <string name="b">%1$s، %2$s</string>
+    <string name="c">%1$s، %2$s، %3$s</string>
+    <string name="d">التنقل إلى أعلى</string>
+    <string name="e">خيارات إضافية</string>
+    <string name="f">تم</string>
+    <string name="g">عرض الكل</string>
+    <string name="h">اختيار تطبيق</string>
+    <string name="i">إيقاف</string>
+    <string name="j">تشغيل</string>
+    <string name="k">بحث…</string>
+    <string name="l">محو طلب البحث</string>
+    <string name="m">طلب البحث</string>
+    <string name="n">بحث</string>
+    <string name="o">إرسال طلب البحث</string>
+    <string name="p">البحث الصوتي</string>
+    <string name="q">مشاركة مع</string>
+    <string name="r">‏مشاركة مع %s</string>
+    <string name="s">تصغير</string>
+    <string name="t">البحث</string>
+    <string name="u">+999</string>
+    <string name="v">ماذا يحدث؟</string>
+    <string name="w">إعجاب بالتغريدة</string>
+    <string name="x">إلغاء الإعجاب</string>
+    <string name="y">يتم تحميل التغريدة</string>
+    <string name="z">سجّل الدخول بواسطة تويتر</string>
+    <string name="a0">140</string>
+    <string name="a1">توقف</string>
+    <string name="a2">تشغيل</string>
+    <string name="a3">تغريد</string>
+    <string name="a4">أيقونة الخصوصيّة</string>
+    <string name="a5">d/M/y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">إعادة التشغيل</string>
+    <string name="a8">مُعاد تغريدها بواسطة %1$s</string>
+    <string name="a9">اطلع على تغريدة ‎@%1$s https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">تغريدة من %1$s (‎@%2$s)</string>
+    <string name="aa">مشاركة التغريدة</string>
+    <string name="ab">هذا إعلان مدفوع</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">تغريدة وسائط</string>
+</resources>

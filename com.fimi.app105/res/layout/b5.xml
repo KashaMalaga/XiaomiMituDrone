@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:blockly="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.google.blockly.android.WorkspaceFragment" android:id="@id/f4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/f9" android:layout_toEndOf="@id/f9" />
+    <fragment android:name="com.google.blockly.android.FlyoutFragment" android:id="@id/f5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/f9" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/f9" blockly:closeable="true" blockly:scrollOrientation="br" />
+    <fragment android:name="com.google.blockly.android.CategorySelectorFragment" android:id="@id/f9" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" blockly:labelRotation="bq" blockly:scrollOrientation="bs" />
+    <fragment android:name="com.google.blockly.android.FlyoutFragment" android:id="@id/f6" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/f9" android:layout_toEndOf="@id/f9" blockly:closeable="true" blockly:scrollOrientation="bs" />
+    <LinearLayout android:orientation="vertical" android:id="@id/f_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/fa" android:background="@color/dg" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/z3" />
+        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/fb" android:background="@color/dg" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/z4" />
+        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/fc" android:background="@color/dg" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rm" />
+        <com.google.blockly.android.ui.TrashCanView android:id="@id/ff" android:background="@color/dg" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

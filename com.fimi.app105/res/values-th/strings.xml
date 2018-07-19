@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">นำทางไปหน้าแรก</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">นำทางขึ้น</string>
+    <string name="e">ตัวเลือกอื่น</string>
+    <string name="f">เสร็จสิ้น</string>
+    <string name="g">ดูทั้งหมด</string>
+    <string name="h">เลือกแอป</string>
+    <string name="i">ปิด</string>
+    <string name="j">เปิด</string>
+    <string name="k">ค้นหา…</string>
+    <string name="l">ล้างข้อความค้นหา</string>
+    <string name="m">ข้อความค้นหา</string>
+    <string name="n">ค้นหา</string>
+    <string name="o">ส่งข้อความค้นหา</string>
+    <string name="p">ค้นหาด้วยเสียง</string>
+    <string name="q">แชร์กับ</string>
+    <string name="r">แชร์กับ %s</string>
+    <string name="s">ยุบ</string>
+    <string name="t">ค้นหา</string>
+    <string name="u">999+</string>
+    <string name="v">มีอะไรเกิดขึ้น?</string>
+    <string name="w">ชื่นชอบทวีต</string>
+    <string name="x">เลิกชื่นชอบ</string>
+    <string name="y">กำลังโหลดทวีต</string>
+    <string name="z">เข้าสู่ระบบด้วยทวิตเตอร์</string>
+    <string name="a0">140</string>
+    <string name="a1">หยุดชั่วคราว</string>
+    <string name="a2">เล่น</string>
+    <string name="a3">ทวีต</string>
+    <string name="a4">ไอคอนความเป็นส่วนตัว</string>
+    <string name="a5">d/M/y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">เล่นซ้ำ</string>
+    <string name="a8">ถูกรีทวีตโดย %1$s</string>
+    <string name="a9">ดูทวีตของ @%1$s: Tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">ทวีตจาก %1$s (@%2$s)</string>
+    <string name="aa">แบ่งปันทวีต</string>
+    <string name="ab">นี่คือโฆษณาที่ได้รับการสนับสนุน</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">ทวีตสื่อ</string>
+</resources>

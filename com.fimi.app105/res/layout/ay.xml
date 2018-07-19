@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/ie" android:background="@drawable/lr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="67.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ig" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="42.0dip">
+            <ImageButton android:id="@id/ih" android:background="@drawable/ae" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginTop="5.0dip" />
+            <TextView android:textSize="9.0sp" android:textColor="#66ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/hw" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ii" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/ij" android:background="@drawable/a_" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginTop="5.0dip" />
+            <TextView android:textSize="9.0sp" android:textColor="#66ffffff" android:id="@id/ik" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/hl" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

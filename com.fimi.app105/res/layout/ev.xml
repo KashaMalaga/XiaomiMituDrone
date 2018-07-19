@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/te" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_marginTopPercent="4.4444%h">
+        <View android:id="@id/tf" android:background="@drawable/gd" android:layout_width="5.0908813dip" android:layout_height="5.0908813dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/dy" android:textColor="#e6000000" android:id="@id/tg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.181793dip" android:layout_toRightOf="@id/tf" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/dw" android:textColor="#e6000000" android:id="@id/th" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.272675dip" android:layout_below="@id/te" android:lineSpacingExtra="2.0dip" app:layout_marginTopPercent="1.7592%h" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

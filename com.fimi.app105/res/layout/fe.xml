@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/c2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/kj" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="13.329987dip" android:textColor="#e6000000" android:gravity="center" android:id="@id/el" android:layout_width="251.6dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.299988dip" android:layout_marginRight="20.0dip" android:text="@string/pe" android:layout_centerHorizontal="true" />
+            <com.fimi.widget.LetterSpacingTextView android:textSize="12.0dip" android:textColor="#99000000" android:id="@id/hw" android:layout_width="251.6dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip" android:text="@string/pd" android:layout_below="@id/el" android:lineSpacingExtra="4.0dip" />
+        </RelativeLayout>
+        <Button android:textSize="14.0dip" android:textColor="#e6000000" android:id="@id/km" android:background="@drawable/br" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="@string/pc" android:layout_below="@id/kj" android:layout_alignLeft="@id/kj" android:layout_alignRight="@id/kj" />
+    </RelativeLayout>
+</RelativeLayout>

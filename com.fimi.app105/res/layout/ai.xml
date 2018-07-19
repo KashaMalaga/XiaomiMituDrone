@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gq" android:background="@color/er" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/gr" android:background="@drawable/yv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/gs" android:background="@drawable/fy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.599976dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/el" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.599976dip" android:text="@string/ov" android:layout_centerHorizontal="true" />
+        <TextView android:enabled="false" android:textSize="14.0sp" android:textColor="@drawable/d8" android:id="@id/gy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.599976dip" android:layout_marginRight="22.0dip" android:text="@string/qj" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/h6" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/gr" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/x9_camera_video_resolution_layout" />
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/x9_camera_tfcard_layout" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

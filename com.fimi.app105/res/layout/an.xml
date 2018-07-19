@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ho" android:background="#ff141719" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/gr" android:background="@drawable/yv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/gs" android:background="@drawable/fy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.599976dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ccffffff" android:gravity="center|right|top" android:id="@id/hp" android:paddingLeft="5.0dip" android:paddingTop="19.299988dip" android:paddingRight="22.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/hr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <android.support.design.widget.TabLayout android:id="@id/hq" android:layout_width="400.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_centerHorizontal="true" app:tabIndicatorHeight="0.0dip" app:tabBackground="@null" app:tabGravity="c0" app:tabTextColor="@android:color/holo_blue_light" app:tabSelectedTextColor="@android:color/black" />
+    </RelativeLayout>
+    <com.fimi.album.widget.HackyViewPager android:id="@id/hr" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/gr" />
+    <include layout="@layout/x9_media_top_bar" />
+    <include layout="@layout/x9_media_bottonm_bar" />
+</RelativeLayout>

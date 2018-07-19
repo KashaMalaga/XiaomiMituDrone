@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">נווט לדף הבית</string>
+    <string name="b">‏%1$s‏, %2$s</string>
+    <string name="c">‏%1$s‏, %2$s‏, %3$s</string>
+    <string name="d">נווט למעלה</string>
+    <string name="e">עוד אפשרויות</string>
+    <string name="f">בוצע</string>
+    <string name="g">ראה הכל</string>
+    <string name="h">בחר אפליקציה</string>
+    <string name="i">כבוי</string>
+    <string name="j">פועל</string>
+    <string name="k">חפש…</string>
+    <string name="l">מחק שאילתה</string>
+    <string name="m">שאילתת חיפוש</string>
+    <string name="n">חפש</string>
+    <string name="o">שלח שאילתה</string>
+    <string name="p">חיפוש קולי</string>
+    <string name="q">שתף עם</string>
+    <string name="r">‏שתף עם %s</string>
+    <string name="s">כווץ</string>
+    <string name="t">חפש</string>
+    <string name="u">‎999+‎</string>
+    <string name="v">מה קורה?</string>
+    <string name="w">סמן ציוץ כאהוב</string>
+    <string name="x">בטל סימון כאהוב</string>
+    <string name="y">טוען ציוץ</string>
+    <string name="z">כניסה באמצעות טוויטר</string>
+    <string name="a0">140</string>
+    <string name="a1">לעצור</string>
+    <string name="a2">לנגן</string>
+    <string name="a3">צייץ</string>
+    <string name="a4">סמל פרטיות</string>
+    <string name="a5">d.M.y</string>
+    <string name="a6">d. MMM</string>
+    <string name="a7">לנגן מחדש</string>
+    <string name="a8">צויץ מחדש על-ידי %1$s</string>
+    <string name="a9">בוא לראות את הציוץ של ‎@%1$s‏: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">ציוץ של %1$s‏ (‎@%2$s)</string>
+    <string name="aa">שתף ציוץ</string>
+    <string name="ab">זוהי מודעה ממומנת</string>
+    <string name="ac">%1$s‏. %2$s‏. %3$s</string>
+    <string name="ad">המדיה של הציוץ</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ಮುಖಪುಟವನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</string>
+    <string name="e">ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು</string>
+    <string name="f">ಮುಗಿದಿದೆ</string>
+    <string name="g">ಎಲ್ಲವನ್ನೂ ನೋಡಿ</string>
+    <string name="h">ಒಂದು ಅಪ್ಲಿಕೇಶನ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="i">ಆಫ್</string>
+    <string name="j">ಆನ್</string>
+    <string name="k">ಹುಡುಕಿ…</string>
+    <string name="l">ಪ್ರಶ್ನೆಯನ್ನು ತೆರವುಗೊಳಿಸು</string>
+    <string name="m">ಪ್ರಶ್ನೆಯನ್ನು ಹುಡುಕಿ</string>
+    <string name="n">ಹುಡುಕಿ</string>
+    <string name="o">ಪ್ರಶ್ನೆಯನ್ನು ಸಲ್ಲಿಸು</string>
+    <string name="p">ಧ್ವನಿ ಹುಡುಕಾಟ</string>
+    <string name="q">ಇವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="r">%s ಜೊತೆಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="s">ಸಂಕುಚಿಸು</string>
+    <string name="t">ಹುಡುಕಿ</string>
+    <string name="u">999+</string>
+    <string name="v">ಏನು ನಡೆಯುತ್ತಿದೆ?</string>
+    <string name="w">ಟ್ವೀಟ್ ಇಷ್ಟಪಡಿ</string>
+    <string name="x">ಇಷ್ಟಪಡಿ ರದ್ದುಮಾಡು</string>
+    <string name="y">ಟ್ವೀಟ್ ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="z">Twitter ಜೊತೆಗೆ ಲಾಗ್ ಇನ್ ಆಗಿ</string>
+    <string name="a0">140</string>
+    <string name="a1">ವಿರಾಮ</string>
+    <string name="a2">ಪ್ಲೇ</string>
+    <string name="a3">ಟ್ವೀಟ್ ಮಾಡಿ</string>
+    <string name="a4">ಗೌಪ್ಯತೆ ಐಕಾನ್</string>
+    <string name="a7">ಮರುಪ್ಲೇ</string>
+    <string name="a8">%1$s ಇಂದ ಮರುಟ್ವೀಟಿಸಲ್ಪಟ್ಟಿದೆ</string>
+    <string name="a9">"ಪರಿಶೀಲಿಸಿ @%1$s's ಟ್ವೀಟ್: https://twitter.com/%1$s/ಸ್ಥಿತಿ/%2$s"</string>
+    <string name="a_">%1$s (@%2$s) ಇಂದ ಟ್ವೀಟ್</string>
+    <string name="aa">ಟ್ವೀಟ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="ab">ಇಉ ಒಂದು ಪ್ರಾಯೋಜಿತ ಜಾಹೀರಾತು</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">ಟ್ವೀಟ್ ಮಾಧ್ಯಮ</string>
+</resources>

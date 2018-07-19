@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">1 ساعت</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">1 دقیقه</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="one">1 ثانیه</item>
+    </plurals>
+</resources>

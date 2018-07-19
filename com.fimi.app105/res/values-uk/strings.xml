@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Перейти на головний</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Перейти вгору</string>
+    <string name="e">Інші опції</string>
+    <string name="f">Готово</string>
+    <string name="g">Переглянути всі</string>
+    <string name="h">Вибрати програму</string>
+    <string name="i">ВИМК.</string>
+    <string name="j">УВІМК.</string>
+    <string name="k">Пошук…</string>
+    <string name="l">Очистити запит</string>
+    <string name="m">Пошуковий запит</string>
+    <string name="n">Пошук</string>
+    <string name="o">Надіслати запит</string>
+    <string name="p">Голосовий пошук</string>
+    <string name="q">Надіслати через</string>
+    <string name="r">Надіслати через %s</string>
+    <string name="s">Згорнути</string>
+    <string name="t">Пошук</string>
+    <string name="u">999+</string>
+    <string name="v">Що відбувається?</string>
+    <string name="w">Вподобати твіт</string>
+    <string name="x">Скасувати вподобання</string>
+    <string name="y">Завантаження твіта</string>
+    <string name="z">Увійти за допомогою профілю Твіттера</string>
+    <string name="a0">140</string>
+    <string name="a1">призупинити</string>
+    <string name="a2">відтворити</string>
+    <string name="a3">Твітнути</string>
+    <string name="a4">Значок конфіденційності</string>
+    <string name="a7">повторити</string>
+    <string name="a8">Ретвітнуто користувачем(кою) %1$s</string>
+    <string name="a9">Подивіться-но твіт від @%1$s: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Твіт від %1$s (@%2$s)</string>
+    <string name="aa">Поділитися твітом</string>
+    <string name="ab">Це рекламне оголошення</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Медіафайли твітів</string>
+</resources>

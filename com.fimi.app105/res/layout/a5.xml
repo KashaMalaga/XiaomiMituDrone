@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.app.ui.main.HostMainHeader android:id="@id/fg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.fimi.app.ui.main.ProductShowWidget android:id="@id/fh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fg" app:layout_marginTopPercent="13.854%h" />
+    <com.fimi.app.ui.main.SelectButtonView android:id="@id/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:layout_marginTopPercent="68.82%" />
+    <TextView android:textSize="14.0dip" android:textColor="#ca000000" android:id="@id/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d2" android:layout_below="@id/fi" android:layout_centerHorizontal="true" app:layout_marginTopPercent="6.77%h" />
+    <TextView android:textSize="12.0dip" android:textColor="#ca000000" android:id="@id/fk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fj" android:layout_centerHorizontal="true" app:layout_marginTopPercent="2.03%h" />
+    <Button android:textSize="12.0dip" android:textColor="@drawable/bg" android:id="@id/fl" android:background="@drawable/bf" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/lb" android:layout_below="@id/fk" android:layout_centerHorizontal="true" app:layout_widthPercent="87.2222%w" app:layout_heightPercent="11.2962%w" app:layout_marginTopPercent="5.4%h" style="?android:attr/borderlessButtonStyle" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

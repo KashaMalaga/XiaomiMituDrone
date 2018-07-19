@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ホームへ移動</string>
+    <string name="b">%1$s、%2$s</string>
+    <string name="c">%1$s、%2$s、%3$s</string>
+    <string name="d">上へ移動</string>
+    <string name="e">その他のオプション</string>
+    <string name="f">完了</string>
+    <string name="g">すべて表示</string>
+    <string name="h">アプリの選択</string>
+    <string name="i">OFF</string>
+    <string name="j">ON</string>
+    <string name="k">検索…</string>
+    <string name="l">検索キーワードを削除</string>
+    <string name="m">検索キーワード</string>
+    <string name="n">検索</string>
+    <string name="o">検索キーワードを送信</string>
+    <string name="p">音声検索</string>
+    <string name="q">共有</string>
+    <string name="r">%sと共有</string>
+    <string name="s">折りたたむ</string>
+    <string name="t">検索</string>
+    <string name="u">999+</string>
+    <string name="v">いまどうしてる?</string>
+    <string name="w">ツイートにいいねする</string>
+    <string name="x">いいねを取り消す</string>
+    <string name="y">ツイートを読込中</string>
+    <string name="z">Twitterにログイン</string>
+    <string name="a0">140</string>
+    <string name="a1">一時停止</string>
+    <string name="a2">再生</string>
+    <string name="a3">ツイート</string>
+    <string name="a4">プライバシーアイコン</string>
+    <string name="a5">y/M/d</string>
+    <string name="a6">M月d日</string>
+    <string name="a7">リプレイ</string>
+    <string name="a8">%1$sさんがリツイート</string>
+    <string name="a9">\@%1$sさんのツイートをチェックしましょう　 https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">%1$s (@%2$s)さんからのツイート</string>
+    <string name="aa">ツイートを共有</string>
+    <string name="ab">スポンサー広告</string>
+    <string name="ac">%1$s、 %2$s、 %3$s。</string>
+    <string name="ad">画像/動画を投稿</string>
+</resources>

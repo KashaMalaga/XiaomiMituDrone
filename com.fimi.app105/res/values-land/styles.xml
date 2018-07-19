@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="b" parent="@style/eo">
+        <item name="kw">bt</item>
+        <item name="kx">c0</item>
+    </style>
+</resources>

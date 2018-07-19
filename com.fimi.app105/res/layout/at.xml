@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/i5" android:background="#ff1f1f21" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <me.relex.photodraweeview.PhotoDraweeView android:id="@id/i6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" fresco:actualImageScaleType="cf" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/i3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/aj" android:layout_centerInParent="true" />
+</RelativeLayout>

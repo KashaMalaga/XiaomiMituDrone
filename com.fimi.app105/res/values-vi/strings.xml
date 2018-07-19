@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Điều hướng về trang chủ</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Điều hướng lên trên</string>
+    <string name="e">Thêm tùy chọn</string>
+    <string name="f">Xong</string>
+    <string name="g">Xem tất cả</string>
+    <string name="h">Chọn một ứng dụng</string>
+    <string name="i">TẮT</string>
+    <string name="j">BẬT</string>
+    <string name="k">Tìm kiếm…</string>
+    <string name="l">Xóa truy vấn</string>
+    <string name="m">Tìm kiếm truy vấn</string>
+    <string name="n">Tìm kiếm</string>
+    <string name="o">Gửi truy vấn</string>
+    <string name="p">Tìm kiếm bằng giọng nói</string>
+    <string name="q">Chia sẻ với</string>
+    <string name="r">Chia sẻ với %s</string>
+    <string name="s">Thu gọn</string>
+    <string name="t">Tìm kiếm</string>
+    <string name="u">999+</string>
+    <string name="v">Điều gì đang Xảy ra?</string>
+    <string name="w">Thích Tweet</string>
+    <string name="x">Hoàn tác Thích</string>
+    <string name="y">Đang tải Tweet</string>
+    <string name="z">Đăng nhập bằng Twitter</string>
+    <string name="a0">140</string>
+    <string name="a1">dừng lại</string>
+    <string name="a2">phát</string>
+    <string name="a3">Tweet</string>
+    <string name="a4">Biểu tượng Quyền riêng tư</string>
+    <string name="a7">phát lại</string>
+    <string name="a8">Đã Tweet lại bởi %1$s</string>
+    <string name="a9">Hãy xem Tweet của @%1$s: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Tweet từ %1$s (@%2$s)</string>
+    <string name="aa">Chia sẻ Tweet</string>
+    <string name="ab">Đây là một quảng cáo có tài trợ</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Tweet Phương tiện</string>
+</resources>

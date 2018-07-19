@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/sk" android:background="#ff1f2123" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="66.29999dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/u6" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageButton android:enabled="false" android:id="@id/u7" android:background="@drawable/a_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:alpha="0.3" />
+        <TextView android:enabled="false" android:textSize="9.299988dip" android:textColor="#66ffffff" android:id="@id/u8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/hl" android:layout_below="@id/u7" android:layout_centerHorizontal="true" android:alpha="0.3" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/u9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="41.299988dip" android:layout_toLeftOf="@id/u6">
+        <ImageButton android:enabled="false" android:id="@id/u_" android:background="@drawable/aa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:alpha="0.3" />
+        <TextView android:enabled="false" android:textSize="9.299988dip" android:textColor="#66ffffff" android:id="@id/ua" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/b4" android:layout_below="@id/u_" android:layout_centerHorizontal="true" android:alpha="0.3" />
+    </RelativeLayout>
+</RelativeLayout>

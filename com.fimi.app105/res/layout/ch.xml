@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/gq" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/ks" android:visibility="gone" style="@android:style/MediaButton.Previous" />
+    <ImageButton android:id="@id/kt" android:visibility="gone" style="@android:style/MediaButton.Rew" />
+    <ImageButton android:id="@id/ku" android:visibility="gone" style="@android:style/MediaButton.Ffwd" />
+    <ImageButton android:id="@id/kv" android:visibility="gone" style="@android:style/MediaButton.Next" />
+    <RelativeLayout android:id="@id/kw" android:background="#cc1f1f21" android:layout_width="fill_parent" android:layout_height="67.0dip">
+        <TextView android:background="#26ffffff" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/kx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="21.0dip" />
+        <ImageButton android:id="@id/ky" android:background="@drawable/j1" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <SeekBar android:id="@id/kz" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="11.0dip" android:thumb="@drawable/ri" android:layout_toLeftOf="@id/ky" android:layout_below="@id/kx" android:layout_centerVertical="true" style="@style/Widget.SeekBar.Normal" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/l0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_marginRight="10.0dip" android:layout_alignRight="@id/kz" />
+    </RelativeLayout>
+</RelativeLayout>

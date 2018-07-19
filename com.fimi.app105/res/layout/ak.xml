@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/hd" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fimi.player.widget.FimiVideoView android:id="@id/he" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/hf" android:background="@drawable/ab" android:layout_width="67.0dip" android:layout_height="67.0dip" android:layout_centerInParent="true" />
+    <include android:id="@id/hg" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/activity_x9_fimi_media_control" />
+</RelativeLayout>

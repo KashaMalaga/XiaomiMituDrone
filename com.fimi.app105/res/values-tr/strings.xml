@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Ana ekrana git</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Yukarı git</string>
+    <string name="e">Diğer seçenekler</string>
+    <string name="f">Bitti</string>
+    <string name="g">Tümünü göster</string>
+    <string name="h">Bir uygulama seçin</string>
+    <string name="i">KAPAT</string>
+    <string name="j">AÇ</string>
+    <string name="k">Ara…</string>
+    <string name="l">Sorguyu temizle</string>
+    <string name="m">Arama sorgusu</string>
+    <string name="n">Ara</string>
+    <string name="o">Sorguyu gönder</string>
+    <string name="p">Sesli arama</string>
+    <string name="q">Şununla paylaş</string>
+    <string name="r">%s ile paylaş</string>
+    <string name="s">Daralt</string>
+    <string name="t">Ara</string>
+    <string name="u">999+</string>
+    <string name="v">Neler oluyor?</string>
+    <string name="w">Tweet Beğen</string>
+    <string name="x">Beğenmekten Vazgeç</string>
+    <string name="y">Tweet Yükleniyor</string>
+    <string name="z">Twitter ile giriş yap</string>
+    <string name="a0">140</string>
+    <string name="a1">duraklat</string>
+    <string name="a2">oynat</string>
+    <string name="a3">Tweet</string>
+    <string name="a4">Gizlilik Simgesi</string>
+    <string name="a5">dd.MM.y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">tekrar oynat</string>
+    <string name="a8">%1$s tarafından Retweetlendi</string>
+    <string name="a9">\@%1$s adlı kişinin Tweetini incele: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Tweet gönderen: %1$s (@%2$s)</string>
+    <string name="aa">Tweet Paylaş</string>
+    <string name="ab">Bu sponsorlu bir reklamdır</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Tweet Medyası</string>
+</resources>

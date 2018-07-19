@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge style="@style/tw__TweetFillWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/q9" android:layout_alignLeft="@id/qg" android:layout_alignStart="@id/qg" style="@style/tw__TweetRetweetedBy.Compact" />
+    <ImageView android:id="@id/q_" android:layout_below="@id/q9" style="@style/tw__TweetAvatar.Compact" />
+    <LinearLayout android:id="@id/qg" android:layout_toRightOf="@id/q_" android:layout_below="@id/q9" android:layout_toEndOf="@id/q_" style="@style/tw__CompactAttributionLine">
+        <TextView android:id="@id/qa" style="@style/tw__TweetFullName.Compact" />
+        <TextView android:id="@id/qb" style="@style/tw__TweetScreenName.Compact" />
+        <TextView android:id="@id/qc" style="@style/tw__TweetTimestamp.Compact" />
+    </LinearLayout>
+    <ImageView android:id="@id/pf" android:layout_below="@id/q9" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/tw__TwitterLogo.Compact" />
+    <com.twitter.sdk.android.tweetui.internal.AspectRatioFrameLayout android:id="@id/q6" android:layout_below="@id/qg" android:layout_alignLeft="@id/qg" android:layout_alignStart="@id/qg" style="@style/tw__TweetMediaContainer.Compact">
+        <com.twitter.sdk.android.tweetui.internal.TweetMediaView android:id="@id/q7" style="@style/tw__TweetMedia" />
+        <com.twitter.sdk.android.tweetui.internal.MediaBadgeView android:id="@id/q8" style="@style/tw__TweetBadge" />
+    </com.twitter.sdk.android.tweetui.internal.AspectRatioFrameLayout>
+    <TextView android:id="@id/qd" android:layout_toRightOf="@id/q_" android:layout_below="@id/q6" android:layout_toEndOf="@id/q_" style="@style/tw__TweetText.Compact" />
+    <FrameLayout android:id="@id/qe" android:layout_toRightOf="@id/q_" android:layout_below="@id/qd" android:layout_toEndOf="@id/q_" style="@style/tw__QuoteTweetContainer.Compact" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/q_" android:layout_below="@id/qe" android:layout_toEndOf="@id/q_" style="@style/tw__TweetActionButtonBar.Compact" layout="@layout/tw__action_bar" />
+    <View android:id="@id/qf" android:layout_width="fill_parent" android:layout_height="@dimen/es" android:layout_below="@id/qe" />
+</merge>

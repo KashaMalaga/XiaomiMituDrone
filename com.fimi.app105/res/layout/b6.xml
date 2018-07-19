@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/jn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ij" />
+    <EditText android:layout_gravity="center_horizontal" android:id="@id/jo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+</LinearLayout>

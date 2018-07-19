@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Naviger hjem</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Naviger op</string>
+    <string name="e">Flere muligheder</string>
+    <string name="f">Luk</string>
+    <string name="g">Se alle</string>
+    <string name="h">Vælg en app</string>
+    <string name="i">FRA</string>
+    <string name="j">TIL</string>
+    <string name="k">Søg…</string>
+    <string name="l">Ryd forespørgslen</string>
+    <string name="m">Søgeforespørgsel</string>
+    <string name="n">Søg</string>
+    <string name="o">Indsend forespørgslen</string>
+    <string name="p">Talesøgning</string>
+    <string name="q">Del med</string>
+    <string name="r">Del med %s</string>
+    <string name="s">Skjul</string>
+    <string name="t">Søg</string>
+    <string name="u">999+</string>
+    <string name="v">Hvad sker der?</string>
+    <string name="w">Like Tweet</string>
+    <string name="x">Fjern like</string>
+    <string name="y">Indlæser tweet</string>
+    <string name="z">Log ind med Twitter</string>
+    <string name="a0">140</string>
+    <string name="a1">pause</string>
+    <string name="a2">afspil</string>
+    <string name="a3">Tweet</string>
+    <string name="a4">Privatlivs-ikon</string>
+    <string name="a5">d/M/y</string>
+    <string name="a6">d. MMM</string>
+    <string name="a7">afspil igen</string>
+    <string name="a8">Retweetet af %1$s</string>
+    <string name="a9">Tjek @%1$s tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Tweet fra %1$s (@%2$s)</string>
+    <string name="aa">Del tweet</string>
+    <string name="ab">Dette er en sponsoreret annonce</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Tweet-medie</string>
+</resources>

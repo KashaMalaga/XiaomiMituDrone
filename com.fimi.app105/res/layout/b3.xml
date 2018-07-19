@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/as" android:layout_width="340.0dip" android:layout_height="296.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/iz" android:background="@drawable/au" android:layout_width="214.9dip" android:layout_height="36.0dip" android:layout_marginTop="19.625dip" android:layout_centerHorizontal="true" />
+    <LinearLayout android:id="@id/j0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_below="@id/iz" android:layout_centerHorizontal="true">
+        <Button android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/j1" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:text="1" />
+        <Button android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/j2" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:layout_marginLeft="11.0dip" android:text="2" />
+        <Button android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/j3" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:layout_marginLeft="11.0dip" android:text="3" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/j4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/j0" android:layout_centerHorizontal="true">
+        <Button android:textSize="16.0dip" android:textColor="#e6000000" android:id="@id/j5" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:text="4" />
+        <Button android:textSize="16.0dip" android:textColor="#e6000000" android:id="@id/j6" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:layout_marginLeft="11.0dip" android:text="5" />
+        <Button android:textSize="16.0dip" android:textColor="#e6000000" android:id="@id/j7" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:layout_marginLeft="11.0dip" android:text="6" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/j8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/j4" android:layout_centerHorizontal="true">
+        <Button android:textSize="16.0dip" android:textColor="#e6000000" android:id="@id/j9" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:text="7" />
+        <Button android:textSize="16.0dip" android:textColor="#e6000000" android:id="@id/j_" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:layout_marginLeft="11.0dip" android:text="8" />
+        <Button android:textSize="16.0dip" android:textColor="#e6000000" android:id="@id/ja" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:layout_marginLeft="11.0dip" android:text="9" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/j8" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/jb" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:src="@drawable/me" />
+        <Button android:textSize="16.0dip" android:textColor="#e6000000" android:id="@id/jc" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:layout_marginLeft="11.0dip" android:text="0" />
+        <ImageButton android:id="@id/jd" android:background="@drawable/aq" android:layout_width="64.0dip" android:layout_height="37.299988dip" android:layout_marginLeft="11.0dip" android:src="@drawable/ar" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="14.0dip" android:textColor="#ff000000" android:id="@id/je" android:background="@drawable/ao" android:layout_width="fill_parent" android:layout_height="53.0dip" android:text="@string/bz" android:layout_weight="1.0" />
+        <Button android:textSize="14.0dip" android:textColor="#e6000000" android:id="@id/jf" android:background="@drawable/ap" android:layout_width="fill_parent" android:layout_height="53.0dip" android:text="@string/c0" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

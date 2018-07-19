@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.blockly.android.ui.VirtualWorkspaceView android:scrollbarStyle="insideOverlay" android:id="@id/mk" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="horizontal|vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:gridColor="#ff000000" app:backgroundColor="#ff000000" style="@style/BlocklyTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.blockly.android.ui.WorkspaceView android:id="@id/ml" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BlocklyTheme" />
+</com.google.blockly.android.ui.VirtualWorkspaceView>

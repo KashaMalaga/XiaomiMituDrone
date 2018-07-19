@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.blockly.utils.FlyoutRelativeLayout android:id="@id/jr" android:background="@color/u" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/js" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_alignParentLeft="true" android:overScrollMode="never" android:layout_alignParentStart="true" />
+    <View android:background="#19ffffff" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/js" />
+</com.google.blockly.utils.FlyoutRelativeLayout>

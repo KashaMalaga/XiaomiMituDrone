@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Navigate home</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Navigate up</string>
+    <string name="e">More options</string>
+    <string name="f">Done</string>
+    <string name="g">See all</string>
+    <string name="h">Choose an app</string>
+    <string name="i">OFF</string>
+    <string name="j">ON</string>
+    <string name="k">Search…</string>
+    <string name="l">Clear query</string>
+    <string name="m">Search query</string>
+    <string name="n">Search</string>
+    <string name="o">Submit query</string>
+    <string name="p">Voice search</string>
+    <string name="q">Share with</string>
+    <string name="r">Share with %s</string>
+    <string name="s">Collapse</string>
+    <string name="t">Search</string>
+    <string name="u">999+</string>
+    <string name="v">"What's Happening?"</string>
+    <string name="w">Like Tweet</string>
+    <string name="x">Undo Like</string>
+    <string name="y">Loading Tweet</string>
+    <string name="z">Log in with Twitter</string>
+    <string name="a0">140</string>
+    <string name="a1">pause</string>
+    <string name="a2">play</string>
+    <string name="a3">Tweet</string>
+    <string name="a4">Privacy Icon</string>
+    <string name="a5">dd/MM/y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">replay</string>
+    <string name="a8">Retweeted by %1$s</string>
+    <string name="a9">"Check out @%1$s's Tweet: https://twitter.com/%1$s/status/%2$s"</string>
+    <string name="a_">Tweet from %1$s (@%2$s)</string>
+    <string name="aa">Share Tweet</string>
+    <string name="ab">This is a sponsored ad</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Tweet Media</string>
+</resources>

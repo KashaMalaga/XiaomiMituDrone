@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge style="@style/tw__TweetFillWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/qg" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/tw__QuoteAttributionLine">
+        <TextView android:id="@id/qa" style="@style/tw__TweetFullName.Compact" />
+        <TextView android:id="@id/qb" style="@style/tw__TweetScreenName.Compact" />
+    </LinearLayout>
+    <TextView android:id="@id/qd" android:layout_below="@id/qg" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/tw__TweetText.Quote" />
+    <com.twitter.sdk.android.tweetui.internal.AspectRatioFrameLayout android:id="@id/q6" android:layout_below="@id/qd" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/tw__TweetMediaContainer.Quote">
+        <com.twitter.sdk.android.tweetui.internal.TweetMediaView android:id="@id/q7" style="@style/tw__TweetMedia" />
+        <com.twitter.sdk.android.tweetui.internal.MediaBadgeView android:id="@id/q8" style="@style/tw__TweetBadge" />
+    </com.twitter.sdk.android.tweetui.internal.AspectRatioFrameLayout>
+</merge>

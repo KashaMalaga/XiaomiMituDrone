@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Przejdź do strony głównej</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Przejdź wyżej</string>
+    <string name="e">Więcej opcji</string>
+    <string name="f">Gotowe</string>
+    <string name="g">Zobacz wszystkie</string>
+    <string name="h">Wybierz aplikację</string>
+    <string name="i">WYŁ.</string>
+    <string name="j">WŁ.</string>
+    <string name="k">Szukaj…</string>
+    <string name="l">Wyczyść zapytanie</string>
+    <string name="m">Wyszukiwane hasło</string>
+    <string name="n">Szukaj</string>
+    <string name="o">Wyślij zapytanie</string>
+    <string name="p">Wyszukiwanie głosowe</string>
+    <string name="q">Udostępnij dla</string>
+    <string name="r">Udostępnij dla %s</string>
+    <string name="s">Zwiń</string>
+    <string name="t">Szukaj</string>
+    <string name="u">999+</string>
+    <string name="v">Co się dzieje?</string>
+    <string name="w">Polub Tweet</string>
+    <string name="x">Nie lubię</string>
+    <string name="y">Wczytywanie tweeta</string>
+    <string name="z">Zaloguj się przez Twittera</string>
+    <string name="a0">140</string>
+    <string name="a1">zatrzymaj</string>
+    <string name="a2">odtwórz</string>
+    <string name="a3">Tweet</string>
+    <string name="a4">Ikona prywatności</string>
+    <string name="a5">d.MM.y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">odtwórz ponownie</string>
+    <string name="a8">Podane dalej przez %1$s</string>
+    <string name="a9">Zobacz tweet od @%1$s https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Tweet od użytkownika %1$s (@%2$s)</string>
+    <string name="aa">Udostępnij tweet</string>
+    <string name="ab">To jest reklama sponsorowana</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Multimedia z Tweeta</string>
+</resources>

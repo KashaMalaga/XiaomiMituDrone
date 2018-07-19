@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Idi na početnu</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Idi gore</string>
+    <string name="e">Dodatne opcije</string>
+    <string name="f">Gotovo</string>
+    <string name="g">Prikaži sve</string>
+    <string name="h">Odabir aplikacije</string>
+    <string name="i">ISKLJUČENO</string>
+    <string name="j">UKLJUČENO</string>
+    <string name="k">Pretražite…</string>
+    <string name="l">Izbriši upit</string>
+    <string name="m">Upit za pretraživanje</string>
+    <string name="n">Pretraživanje</string>
+    <string name="o">Pošalji upit</string>
+    <string name="p">Glasovno pretraživanje</string>
+    <string name="q">Dijeljenje sa</string>
+    <string name="r">Dijeljenje sa: %s</string>
+    <string name="s">Sažmi</string>
+    <string name="t">Pretraživanje</string>
+    <string name="u">999+</string>
+    <string name="v">Što se događa?</string>
+    <string name="w">Označi Tweet oznakom \"sviđa mi se\"</string>
+    <string name="x">Poništi oznaku \"sviđa mi se\"</string>
+    <string name="y">Učitavanje tweeta</string>
+    <string name="z">Prijavite se putem Twittera</string>
+    <string name="a0">140</string>
+    <string name="a1">pauziraj</string>
+    <string name="a2">reproduciraj</string>
+    <string name="a3">Pošalji Tweet</string>
+    <string name="a4">Ikona zaštite privatnosti</string>
+    <string name="a7">ponovno reproduciraj</string>
+    <string name="a8">%1$s je proslijedio/la Tweet</string>
+    <string name="a9">Pogledajte Tweet korisnika/ce @%1$s: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Tweet korisnika/ce %1$s (@%2$s)</string>
+    <string name="aa">Podijeli Tweet</string>
+    <string name="ab">Ovo je plaćeni oglas</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Medijski sadržaji u tweetu</string>
+</resources>

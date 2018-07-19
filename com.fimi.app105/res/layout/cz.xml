@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/hh" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_marginTopPercent="2.5%h">
+        <View android:id="@id/n1" android:background="@drawable/b3" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/dy" android:textColor="#e6000000" android:id="@id/el" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="title" android:layout_toRightOf="@id/n1" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/dx" android:textColor="#66000000" android:id="@id/n2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="info" android:layout_below="@id/hh" android:layout_alignLeft="@id/el" android:lineSpacingExtra="8.0dip" app:layout_marginTopPercent="1.6666%h" />
+    <View android:id="@id/eo" android:background="#26000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/cw" android:layout_marginTop="5.0dip" android:layout_below="@id/n2" android:layout_alignLeft="@id/el" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/k8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fimi.album.widget.HackyViewPager android:id="@id/hr" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/x9_layout_media_detail_top" />
+    <include layout="@layout/x9_media_bottonm_bar" />
+    <include layout="@layout/x9_layout_media_bar_select_bottom" />
+    <FrameLayout android:id="@id/r9" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/r_" android:background="@drawable/lf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/ra" android:background="@drawable/lq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:id="@id/rb" android:background="@drawable/ab" android:visibility="gone" android:layout_width="67.0dip" android:layout_height="67.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

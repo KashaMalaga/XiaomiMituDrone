@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Zur Startseite</string>
+    <string name="b">%1$s: %2$s</string>
+    <string name="c">%1$s, %2$s: %3$s</string>
+    <string name="d">Nach oben</string>
+    <string name="e">Weitere Optionen</string>
+    <string name="f">Fertig</string>
+    <string name="g">Alle ansehen</string>
+    <string name="h">App auswählen</string>
+    <string name="i">Aus</string>
+    <string name="j">An</string>
+    <string name="k">Suchen…</string>
+    <string name="l">Suchanfrage löschen</string>
+    <string name="m">Suchanfrage</string>
+    <string name="n">Suchen</string>
+    <string name="o">Suchanfrage senden</string>
+    <string name="p">Sprachsuche</string>
+    <string name="q">Freigeben für</string>
+    <string name="r">Freigeben für %s</string>
+    <string name="s">Minimieren</string>
+    <string name="t">Suchen</string>
+    <string name="u">999+</string>
+    <string name="v">Was gibt’s Neues?</string>
+    <string name="w">Tweet gefällt mir</string>
+    <string name="x">Gefällt mir nicht mehr</string>
+    <string name="y">Tweet wird geladen</string>
+    <string name="z">Mit Twitter anmelden</string>
+    <string name="a0">140</string>
+    <string name="a1">Pause</string>
+    <string name="a2">Abspielen</string>
+    <string name="a3">Twittern</string>
+    <string name="a4">Datenschutzsymbol</string>
+    <string name="a5">d.M.y</string>
+    <string name="a6">d. MMM</string>
+    <string name="a7">Erneut abspielen</string>
+    <string name="a8">Retweetet von %1$s</string>
+    <string name="a9">Sieh Dir den Tweet von @%1$s an: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Tweet von %1$s (@%2$s)</string>
+    <string name="aa">Tweet teilen</string>
+    <string name="ab">Dies ist eine gesponserte Anzeige</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Medien twittern</string>
+</resources>

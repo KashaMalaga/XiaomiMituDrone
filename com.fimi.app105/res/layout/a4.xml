@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:blockly="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.google.blockly.android.WorkspaceFragment" android:id="@id/f4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="93.0dip" />
+    <fragment android:name="com.google.blockly.android.FlyoutFragment" android:id="@id/f5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="93.29999dip" android:layout_alignParentBottom="true" blockly:closeable="true" blockly:scrollOrientation="br" />
+    <fragment android:name="com.google.blockly.android.FlyoutFragment" android:id="@id/f6" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="93.29999dip" blockly:closeable="true" blockly:scrollOrientation="bs" />
+    <RelativeLayout android:id="@id/f7" android:background="@drawable/t2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/f8" android:background="@drawable/v5" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="27.0dip" android:layout_marginTop="12.0dip" />
+        <fragment android:name="com.google.blockly.android.CategorySelectorFragment" android:id="@id/f9" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="69.0dip" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" blockly:labelRotation="bq" blockly:scrollOrientation="bs" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/f_" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/fa" android:background="@color/dg" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/z3" />
+        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/fb" android:background="@color/dg" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/z4" />
+        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/fc" android:background="@color/dg" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rm" />
+    </LinearLayout>
+    <Button android:id="@id/fd" android:background="@drawable/f4" android:visibility="visible" android:layout_width="39.299988dip" android:layout_height="39.299988dip" android:layout_marginTop="12.0dip" android:layout_marginRight="27.0dip" android:layout_alignParentRight="true" />
+    <com.google.blockly.android.ui.mutator.TranshRl android:id="@id/fe" android:background="#00000000" android:layout_width="99.0dip" android:layout_height="fill_parent">
+        <com.google.blockly.android.ui.TranshCanNewView android:id="@id/ff" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </com.google.blockly.android.ui.mutator.TranshRl>
+</RelativeLayout>

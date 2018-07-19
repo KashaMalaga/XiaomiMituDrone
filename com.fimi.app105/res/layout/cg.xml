@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/c2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/kj" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="13.329987dip" android:textColor="#e6000000" android:gravity="center" android:id="@id/el" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.299988dip" android:layout_marginRight="20.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0dip" android:textColor="#99000000" android:gravity="center" android:id="@id/hw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/el" />
+            <TextView android:textSize="13.0dip" android:textColor="#99000000" android:gravity="center" android:id="@id/kk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="27.299988dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/kl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/kj" android:layout_alignLeft="@id/kj" android:layout_alignRight="@id/kj">
+            <Button android:textSize="14.0sp" android:textColor="#e6000000" android:gravity="center" android:id="@id/je" android:background="@drawable/bn" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/cj" android:layout_weight="1.0" android:layout_alignParentLeft="true" />
+            <Button android:textSize="14.0sp" android:textColor="#e6000000" android:gravity="center" android:id="@id/jf" android:background="@drawable/bo" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/da" android:layout_weight="1.0" android:layout_toRightOf="@id/ka" />
+        </LinearLayout>
+        <Button android:textSize="14.0dip" android:textColor="#e6000000" android:id="@id/km" android:background="@drawable/br" android:layout_width="wrap_content" android:layout_height="52.0dip" android:layout_below="@id/kj" android:layout_alignLeft="@id/kj" android:layout_alignRight="@id/kj" />
+    </RelativeLayout>
+</RelativeLayout>

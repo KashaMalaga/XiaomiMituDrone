@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:orientation="vertical" android:background="#ffffffff" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.libperson.widget.TitleView android:id="@id/ee" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/fx" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ee" layout="@layout/sub_iphone_account" />
+    <include android:id="@id/fy" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ee" layout="@layout/sub_email_account" />
+    <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:id="@id/fz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="77.29999dip" android:layout_centerHorizontal="true" />
+    <Button android:textSize="13.299988dip" android:textColor="@drawable/bg" android:id="@id/gh" android:background="@drawable/bf" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="60.0dip" android:text="@string/h5" android:layout_below="@id/fx" android:layout_centerHorizontal="true" app:layout_widthPercent="87.2222%w" app:layout_heightPercent="11.2962%w" style="?android:attr/borderlessButtonStyle" />
+    <Button android:textSize="13.299988dip" android:textColor="@drawable/bg" android:id="@id/gi" android:background="@drawable/bf" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="60.0dip" android:text="@string/h5" android:layout_below="@id/fy" android:layout_centerHorizontal="true" app:layout_widthPercent="87.2222%w" app:layout_heightPercent="11.2962%w" style="?android:attr/borderlessButtonStyle" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

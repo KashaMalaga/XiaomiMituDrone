@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge style="@style/tw__TweetFillWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.sdk.android.tweetui.internal.AspectRatioFrameLayout android:id="@id/q6" style="@style/tw__TweetMediaContainer">
+        <com.twitter.sdk.android.tweetui.internal.TweetMediaView android:id="@id/q7" style="@style/tw__TweetMedia" />
+        <com.twitter.sdk.android.tweetui.internal.MediaBadgeView android:id="@id/q8" style="@style/tw__TweetBadge" />
+    </com.twitter.sdk.android.tweetui.internal.AspectRatioFrameLayout>
+    <TextView android:id="@id/q9" android:layout_below="@id/q6" style="@style/tw__TweetRetweetedBy" />
+    <ImageView android:id="@id/q_" android:layout_below="@id/q9" style="@style/tw__TweetAvatar" />
+    <TextView android:id="@id/qa" android:layout_toRightOf="@id/q_" android:layout_below="@id/q9" android:layout_toEndOf="@id/q_" style="@style/tw__TweetFullName" />
+    <ImageView android:id="@id/pf" android:layout_below="@id/q9" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/tw__TwitterLogo" />
+    <TextView android:id="@id/qb" android:layout_toRightOf="@id/q_" android:layout_below="@id/qa" android:layout_alignBottom="@id/q_" android:layout_toEndOf="@id/q_" style="@style/tw__TweetScreenName" />
+    <TextView android:id="@id/qc" android:layout_toRightOf="@id/qb" android:layout_below="@id/qa" android:layout_alignBottom="@id/qb" android:layout_toEndOf="@id/qb" style="@style/tw__TweetTimestamp" />
+    <TextView android:id="@id/qd" android:visibility="gone" android:layout_below="@id/q_" style="@style/tw__TweetText" />
+    <FrameLayout android:id="@id/qe" android:layout_below="@id/qd" style="@style/tw__QuoteTweetContainer" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/qe" style="@style/tw__TweetActionButtonBar" layout="@layout/tw__action_bar" />
+    <View android:id="@id/qf" android:layout_width="fill_parent" android:layout_height="@dimen/gk" android:layout_below="@id/qe" />
+</merge>

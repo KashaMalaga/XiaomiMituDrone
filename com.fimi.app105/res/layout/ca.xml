@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/kj" android:background="@drawable/c2" android:layout_width="345.0dip" android:layout_height="181.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="#ff3a3a3a" android:gravity="center" android:id="@id/el" android:layout_width="251.6dip" android:layout_height="wrap_content" android:layout_marginTop="12.299988dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.599976dip" android:textColor="#663a3a3a" android:id="@id/kn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.299988dip" android:layout_below="@id/el" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.599976dip" android:textColor="#cc3a3a3a" android:id="@id/ko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/kn" android:layout_alignLeft="@id/kn" />
+        <TextView android:textSize="10.599976dip" android:textColor="#cc3a3a3a" android:id="@id/hw" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="14.0dip" android:layout_below="@id/ko" android:layout_alignLeft="@id/kn" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/kl" android:layout_width="345.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.5999756dip" android:layout_below="@id/kj">
+        <View android:id="@id/kp" android:background="#ffffffff" android:layout_width="2.0px" android:layout_height="45.299988dip" android:layout_centerHorizontal="true" />
+        <Button android:textSize="14.0dip" android:textColor="#ccffffff" android:id="@id/je" android:background="@drawable/bt" android:layout_width="wrap_content" android:layout_height="45.299988dip" android:layout_toLeftOf="@id/kp" android:layout_alignParentLeft="true" />
+        <Button android:textSize="14.0dip" android:textColor="#fff36705" android:id="@id/jf" android:background="@drawable/bu" android:layout_width="wrap_content" android:layout_height="45.299988dip" android:layout_toRightOf="@id/kp" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <Button android:textSize="14.0dip" android:textColor="#fff36705" android:id="@id/km" android:background="@drawable/bv" android:visibility="invisible" android:layout_width="345.0dip" android:layout_height="45.299988dip" android:layout_marginTop="6.5999756dip" android:layout_below="@id/kj" />
+</RelativeLayout>

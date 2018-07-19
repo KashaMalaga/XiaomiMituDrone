@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/uc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/ue" android:background="@drawable/dh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/uf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/i2" android:layout_below="@id/ue" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip">
+            <ImageButton android:id="@id/ug" android:background="@drawable/di" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/uh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/i3" android:layout_below="@id/ug" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip">
+            <ImageButton android:id="@id/ui" android:background="@drawable/df" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/uj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/i0" android:layout_below="@id/ui" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip">
+            <ImageButton android:id="@id/uk" android:background="@drawable/de" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/ul" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/hz" android:layout_below="@id/uk" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/um" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/ud" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/un" android:background="@drawable/dd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/uo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/hy" android:layout_below="@id/un" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip">
+            <ImageButton android:id="@id/uq" android:background="@drawable/dg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/ur" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/i1" android:layout_below="@id/uq" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip">
+            <ImageButton android:id="@id/us" android:background="@drawable/dj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/ut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/i4" android:layout_below="@id/us" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip">
+            <ImageButton android:id="@id/uu" android:background="@drawable/dc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/uv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/hx" android:layout_below="@id/uu" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <Button android:textSize="13.299988dip" android:textColor="#ff3a3a3a" android:id="@id/r0" android:background="@drawable/db" android:layout_width="223.0dip" android:layout_height="34.0dip" android:layout_marginTop="22.0dip" android:text="@string/l5" android:layout_below="@id/um" android:layout_centerHorizontal="true" />
+</RelativeLayout>

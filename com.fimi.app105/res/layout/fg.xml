@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ev" android:layout_width="340.32812dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"> >
+<TextView android:textSize="13.329987dip" android:textColor="#e6000000" android:id="@id/tl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/nr" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/tm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.666595dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/tl" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/tn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/z0" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="10.659973dip" android:textColor="@color/o" android:gravity="center" android:id="@id/to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/ld" android:layout_centerInParent="true" android:lineSpacingExtra="1.1799927dip" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/vm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tm" android:layout_centerHorizontal="true">
+        <Button android:textSize="14.0dip" android:textColor="#e6000000" android:gravity="center" android:id="@id/je" android:background="@drawable/bn" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/cj" android:layout_weight="1.0" android:layout_alignParentLeft="true" />
+        <Button android:textSize="14.0dip" android:textColor="#e6000000" android:gravity="center" android:id="@id/jf" android:background="@drawable/bo" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/da" android:layout_weight="1.0" android:layout_toRightOf="@id/ka" />
+    </LinearLayout>
+</RelativeLayout>

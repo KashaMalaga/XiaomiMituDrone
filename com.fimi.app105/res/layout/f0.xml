@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:id="@id/tq" android:background="@drawable/xk" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/xb" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.fimi.x9.view.GrivatySensorView android:id="@id/tr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/dx" android:textColor="@android:color/white" android:id="@id/ts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d8" android:layout_alignParentBottom="true" android:layout_centerInParent="true" app:layout_marginBottomPercent="11.1111111%" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

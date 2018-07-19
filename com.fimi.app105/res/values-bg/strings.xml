@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Придвижване към „Начало“</string>
+    <string name="b">„%1$s“ – %2$s</string>
+    <string name="c">„%1$s“, „%2$s“ – %3$s</string>
+    <string name="d">Придвижване нагоре</string>
+    <string name="e">Още опции</string>
+    <string name="f">Готово</string>
+    <string name="g">Вижте всички</string>
+    <string name="h">Изберете приложение</string>
+    <string name="i">ИЗКЛ.</string>
+    <string name="j">ВКЛ.</string>
+    <string name="k">Търсете…</string>
+    <string name="l">Изчистване на заявката</string>
+    <string name="m">Заявка за търсене</string>
+    <string name="n">Търсене</string>
+    <string name="o">Изпращане на заявката</string>
+    <string name="p">Гласово търсене</string>
+    <string name="q">Споделяне със:</string>
+    <string name="r">Споделяне със: %s</string>
+    <string name="s">Свиване</string>
+    <string name="t">Търсене</string>
+    <string name="u">999+</string>
+    <string name="v">Какво става?</string>
+    <string name="w">Харесване на туита</string>
+    <string name="x">Отмяна на харесването</string>
+    <string name="y">Туитът се зарежда</string>
+    <string name="z">Вход с Twitter</string>
+    <string name="a0">140</string>
+    <string name="a1">пауза</string>
+    <string name="a2">пускане</string>
+    <string name="a3">Туитване</string>
+    <string name="a4">Икона за поверителност</string>
+    <string name="a7">повторение</string>
+    <string name="a8">Ретуитнато от %1$s</string>
+    <string name="a9">Виж туита на @%1$s: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Туит от %1$s (@%2$s)</string>
+    <string name="aa">Споделяне на туита</string>
+    <string name="ab">Това е платена реклама</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Туитване на мултимедия</string>
+</resources>

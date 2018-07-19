@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.libperson.widget.TitleView android:id="@id/ee" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/g4" android:background="#ffeeeff0" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_below="@id/ee" />
+    <RelativeLayout android:id="@id/g5" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_below="@id/g4">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/g6" android:layout_width="56.299988dip" android:layout_height="56.299988dip" android:layout_marginLeft="11.599976dip" android:adjustViewBounds="true" android:layout_centerVertical="true" app:failureImage="@drawable/p6" app:actualImageScaleType="ch" app:roundedCornerRadius="5.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/cf" android:id="@id/g7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="17.0dip" android:layout_toRightOf="@id/g6" />
+        <TextView android:textSize="12.599976dip" android:textColor="@color/cf" android:id="@id/g8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="41.599976dip" android:layout_toRightOf="@id/g6" />
+    </RelativeLayout>
+    <View android:id="@id/g9" android:background="#ffeeeff0" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_below="@id/g5" />
+    <ListView android:id="@id/g_" android:background="#ffffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/cu" android:dividerHeight="1.0px" android:layout_below="@id/g9" android:headerDividersEnabled="false" />
+    <View android:id="@id/ga" android:background="#ffeeeff0" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_below="@id/g_" />
+    <ListView android:id="@id/gb" android:background="#ffffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/cu" android:dividerHeight="1.0px" android:layout_below="@id/ga" android:headerDividersEnabled="false" />
+    <View android:id="@id/gc" android:background="#ffeeeff0" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_below="@id/gb" />
+    <Button android:textSize="15.0dip" android:textColor="#ffdc0a0a" android:id="@id/gd" android:background="@drawable/cv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/j2" android:layout_below="@id/gc" style="?android:attr/borderlessButtonStyle" />
+    <View android:id="@id/ge" android:background="#ffeeeff0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/gd" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

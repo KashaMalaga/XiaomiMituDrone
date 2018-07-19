@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">હોમ પર નેવિગેટ કરો</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">ઉપર નેવિગેટ કરો</string>
+    <string name="e">વધુ વિકલ્પો</string>
+    <string name="f">થઈ ગયું</string>
+    <string name="g">બધું જુઓ</string>
+    <string name="h">એક ઍપ્લિકેશન પસંદ કરો</string>
+    <string name="i">બંધ</string>
+    <string name="j">ચાલુ</string>
+    <string name="k">શોધો…</string>
+    <string name="l">ક્વેરી સાફ કરો</string>
+    <string name="m">શોધ ક્વેરી</string>
+    <string name="n">શોધો</string>
+    <string name="o">ક્વેરી સબમિટ કરો</string>
+    <string name="p">વૉઇસ શોધ</string>
+    <string name="q">આની સાથે શેર કરો</string>
+    <string name="r">%s સાથે શેર કરો</string>
+    <string name="s">સંકુચિત કરો</string>
+    <string name="t">શોધો</string>
+    <string name="u">999+</string>
+    <string name="v">શું ચાલી રહ્યું છ?</string>
+    <string name="w">ટ્વીટ લાઈક કરો</string>
+    <string name="x">લાઈક પૂર્વવત કરો</string>
+    <string name="y">ટ્વીટ લોડ થઈ રહી છે</string>
+    <string name="z">Twitter સાથે લોગીન કરો</string>
+    <string name="a0">140</string>
+    <string name="a1">અટકાવો</string>
+    <string name="a2">પ્લે કરો</string>
+    <string name="a3">ટ્વીટ કરો</string>
+    <string name="a4">ગોપનીયતા ચિહ્ન</string>
+    <string name="a7">પુન પ્લે કરો</string>
+    <string name="a8">%1$s દ્વારા પુનટ્વીટ કરાઈ</string>
+    <string name="a9">\@%1$sી ટ્વીટ તપાસો: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">%1$s (@%2$s) તરફથી ટ્વીટ</string>
+    <string name="aa">ટ્વીટ શેર કરો</string>
+    <string name="ab">આ સ્પોન્સર્ડ જાહેરાત છે</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">ટ્વીટ મીડિયા</string>
+</resources>

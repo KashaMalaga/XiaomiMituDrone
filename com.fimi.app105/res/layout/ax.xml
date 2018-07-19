@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/h7" android:background="#cc1f1f21" android:layout_width="fill_parent" android:layout_height="67.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:background="#26ffffff" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <ImageButton android:id="@id/if" android:background="#00000000" android:visibility="visible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/lb" android:layout_centerVertical="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/ha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_toRightOf="@id/if" />
+    <SeekBar android:id="@id/hb" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="30.0dip" android:thumb="@drawable/lp" android:layout_toRightOf="@id/if" android:layout_below="@id/ha" style="@style/Widget.SeekBar.Normal" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/hc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

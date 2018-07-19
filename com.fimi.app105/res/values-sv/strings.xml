@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Visa startsidan</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Navigera uppåt</string>
+    <string name="e">Fler alternativ</string>
+    <string name="f">Klart</string>
+    <string name="g">Visa alla</string>
+    <string name="h">Välj en app</string>
+    <string name="i">AV</string>
+    <string name="j">PÅ</string>
+    <string name="k">Sök …</string>
+    <string name="l">Ta bort frågan</string>
+    <string name="m">Sökfråga</string>
+    <string name="n">Sök</string>
+    <string name="o">Skicka fråga</string>
+    <string name="p">Röstsökning</string>
+    <string name="q">Dela med</string>
+    <string name="r">Dela med %s</string>
+    <string name="s">Komprimera</string>
+    <string name="t">Sök</string>
+    <string name="u">>999</string>
+    <string name="v">Vad händer?</string>
+    <string name="w">Gilla Tweet</string>
+    <string name="x">Ångra gillamarkeringen</string>
+    <string name="y">Läser in tweeten</string>
+    <string name="z">Logga in med Twitter</string>
+    <string name="a0">140</string>
+    <string name="a1">pausa</string>
+    <string name="a2">spela</string>
+    <string name="a3">Tweeta</string>
+    <string name="a4">Integritet Ikon</string>
+    <string name="a5">d.M.y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">spela om</string>
+    <string name="a8">Retweetad av %1$s</string>
+    <string name="a9">Kolla in @%1$ss tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Tweet från %1$s (@%2$s)</string>
+    <string name="aa">Dela tweeten</string>
+    <string name="ab">Detta är en sponsrad annons</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Tweetmedia</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Vai alla home page</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Vai in alto</string>
+    <string name="e">Altre opzioni</string>
+    <string name="f">Fine</string>
+    <string name="g">Visualizza tutte</string>
+    <string name="h">"Scegli un'applicazione"</string>
+    <string name="i">OFF</string>
+    <string name="j">ON</string>
+    <string name="k">Cerca…</string>
+    <string name="l">Cancella query</string>
+    <string name="m">Query di ricerca</string>
+    <string name="n">Cerca</string>
+    <string name="o">Invia query</string>
+    <string name="p">Ricerca vocale</string>
+    <string name="q">Condividi con</string>
+    <string name="r">Condividi con %s</string>
+    <string name="s">Comprimi</string>
+    <string name="t">Ricerca</string>
+    <string name="u">999+</string>
+    <string name="v">"Cosa c'è di nuovo?"</string>
+    <string name="w">Metti Mi Piace al Tweet</string>
+    <string name="x">Non mi piace più</string>
+    <string name="y">Caricamento del Tweet in corso</string>
+    <string name="z">Accedi con Twitter</string>
+    <string name="a0">140</string>
+    <string name="a1">pausa</string>
+    <string name="a2">riproduci</string>
+    <string name="a3">Twitta</string>
+    <string name="a4">Icona della privacy</string>
+    <string name="a5">d/M/y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">replay</string>
+    <string name="a8">Ritwittato da %1$s</string>
+    <string name="a9">"Dai un'occhiata al Tweet di @%1$s: https://twitter.com/%1$s/status/%2$s"</string>
+    <string name="a_">Tweet da %1$s (@%2$s)</string>
+    <string name="aa">Condividi Tweet</string>
+    <string name="ab">Questo è un annuncio sponsorizzato</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Contenuti dei Tweet</string>
+</resources>

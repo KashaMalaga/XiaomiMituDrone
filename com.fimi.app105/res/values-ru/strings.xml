@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Перейти на главный экран</string>
+    <string name="b">%1$s, %2$s</string>
+    <string name="c">%1$s, %2$s, %3$s</string>
+    <string name="d">Перейти вверх</string>
+    <string name="e">Другие параметры</string>
+    <string name="f">Готово</string>
+    <string name="g">Показать все</string>
+    <string name="h">Выбрать приложение</string>
+    <string name="i">ОТКЛ.</string>
+    <string name="j">ВКЛ.</string>
+    <string name="k">Поиск</string>
+    <string name="l">Удалить запрос</string>
+    <string name="m">Поисковый запрос</string>
+    <string name="n">Поиск</string>
+    <string name="o">Отправить запрос</string>
+    <string name="p">Голосовой поиск</string>
+    <string name="q">Открыть доступ</string>
+    <string name="r">Открыть доступ пользователю %s</string>
+    <string name="s">Свернуть</string>
+    <string name="t">Поиск</string>
+    <string name="u">>999</string>
+    <string name="v">Что нового?</string>
+    <string name="w">Мне нравится</string>
+    <string name="x">Не нравится</string>
+    <string name="y">Загрузка твита</string>
+    <string name="z">Войти с учётной записью Твиттера</string>
+    <string name="a0">140</string>
+    <string name="a1">приостановить</string>
+    <string name="a2">воспроизвести</string>
+    <string name="a3">Твитнуть</string>
+    <string name="a4">Значок конфиденциальности</string>
+    <string name="a5">dd.MM.y</string>
+    <string name="a6">d MMM</string>
+    <string name="a7">повторно воспроизвести</string>
+    <string name="a8">Ретвитнуто пользователем %1$s</string>
+    <string name="a9">Посмотрите твит пользователя @%1$s: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="a_">Твит от %1$s (@%2$s)</string>
+    <string name="aa">Поделиться твитом</string>
+    <string name="ab">Это рекламное объявление</string>
+    <string name="ac">%1$s. %2$s. %3$s.</string>
+    <string name="ad">Медиафайл в твите</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/lk" android:background="@drawable/xo" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:layout_widthPercent="101.666667%h" app:layout_heightPercent="100%h" />
+    <com.fimi.kernel.percent.PercentRelativeLayout android:paddingBottom="16.363617dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/lc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.90909dip">
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/ev" android:id="@id/ld" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" />
+            <TextView android:textSize="@dimen/hc" android:textColor="@color/es" android:id="@id/le" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/8" />
+            <TextView android:textSize="@dimen/hg" android:textStyle="bold" android:textColor="@color/ew" android:layout_gravity="center" android:id="@id/kn" android:paddingLeft="@dimen/h_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/n4" android:layout_alignTop="@id/l3" android:layout_alignBottom="@id/l3" />
+        </LinearLayout>
+        <com.fimi.widget.LetterSpacingTextView android:textSize="@dimen/h9" android:textColor="@color/et" android:id="@id/lf" android:layout_width="198.90909dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hb" android:layout_marginTop="25.454529dip" android:text="@string/mv" android:layout_below="@id/lc" />
+        <com.fimi.widget.LetterSpacingTextView android:textSize="@dimen/h9" android:textColor="@color/et" android:id="@id/li" android:layout_width="198.90909dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hb" android:layout_marginTop="22.909088dip" android:text="@string/mz" android:layout_below="@id/lf" />
+    </com.fimi.kernel.percent.PercentRelativeLayout>
+</com.fimi.kernel.percent.PercentRelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ho" android:background="@color/c7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/hx" android:background="@color/c6" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageButton android:id="@id/hy" android:background="@color/c6" android:layout_width="50.0dip" android:layout_height="100.0dip" android:src="@drawable/lc" android:layout_centerVertical="true" />
+        <Button android:textColor="#66ffffff" android:gravity="center" android:id="@id/hz" android:background="@drawable/ag" android:layout_width="55.0dip" android:layout_height="29.0dip" android:layout_marginRight="10.0dip" android:text="@string/hr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="@android:color/white" android:id="@id/i0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gf" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/i1" android:background="@color/c5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/hx" />
+    <FrameLayout android:id="@id/i2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/hx" />
+    <include layout="@layout/album_layout_media_bar_select_top" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/i3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/aj" android:layout_centerInParent="true" />
+</RelativeLayout>

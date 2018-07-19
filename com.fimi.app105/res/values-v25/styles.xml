@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a5" parent="@style/lu" />
+    <style name="a6" parent="@style/lv" />
+    <style name="lu" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="lv" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

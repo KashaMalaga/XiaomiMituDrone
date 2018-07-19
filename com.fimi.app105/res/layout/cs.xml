@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/fa" android:id="@id/mm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ia" android:layout_weight="1.0" />
+        <ImageView android:id="@id/mn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oz" />
+        <ImageView android:id="@id/mo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/os" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/fa" android:id="@id/mp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/i_" android:layout_weight="1.0" />
+        <CheckBox android:id="@id/mq" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

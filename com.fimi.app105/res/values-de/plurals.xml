@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">%d Std.</item>
+        <item quantity="one">1 Std.</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d Min.</item>
+        <item quantity="one">1 Min.</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d Sek.</item>
+        <item quantity="one">1 Sek.</item>
+    </plurals>
+</resources>

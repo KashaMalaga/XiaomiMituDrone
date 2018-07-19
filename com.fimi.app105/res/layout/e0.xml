@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/ps" style="@style/tw__ad_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twitter.sdk.android.mopub.internal.RoundedImageView android:id="@id/pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <RelativeLayout android:id="@id/pu" android:padding="@dimen/eg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/pv" android:layout_width="@dimen/e_" android:layout_height="@dimen/e_" android:layout_marginLeft="@dimen/e8" android:layout_marginRight="@dimen/e9" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/eh" android:textStyle="bold" android:textColor="@color/dq" android:id="@id/pw" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ek" android:layout_toRightOf="@id/pv" />
+        <TextView android:textSize="@dimen/ei" android:textColor="@color/dq" android:id="@id/px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/pw" android:layout_alignLeft="@id/pw" />
+    </RelativeLayout>
+    <Button android:id="@id/py" android:textAllCaps="false" style="@style/tw__ad_cta_button" />
+    <RelativeLayout android:id="@id/pz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ee">
+        <ImageView android:id="@id/q0" android:background="@null" android:padding="@dimen/ec" android:layout_width="@dimen/ed" android:layout_height="@dimen/ed" android:contentDescription="@string/a4" />
+        <TextView android:textSize="@dimen/ej" android:id="@id/q1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ef" android:text="@string/ab" android:layout_centerInParent="true" android:layout_toEndOf="@id/q0" />
+    </RelativeLayout>
+</LinearLayout>

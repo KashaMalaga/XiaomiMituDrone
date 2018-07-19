@@ -1,0 +1,324 @@
+<!--
+ ~  Copyright 2016 Google Inc. All Rights Reserved.
+ ~  Licensed under the Apache License, Version 2.0 (the "License");
+ ~  you may not use this file except in compliance with the License.
+ ~  You may obtain a copy of the License at
+ ~
+ ~   http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~  Unless required by applicable law or agreed to in writing, software
+ ~  distributed under the License is distributed on an "AS IS" BASIS,
+ ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~  See the License for the specific language governing permissions and
+ ~  limitations under the License.
+ -->
+
+<xml>
+    <category name="开始" colour="#00B86E" icon="images/category_start">
+        <block type="control_start"></block>
+    </category>
+    <category name="动作" colour="#0087FF" icon="images/category_action">
+        <block type="control_takeoff"></block>
+        <block type="control_takeoff_on_hand"></block>
+        <block type="control_landing"></block>
+        <block type="control_hover"></block>
+        <block type="control_flip_pitch_down">
+            <value name="VALUE">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_flip_pitch_up">
+            <value name="VALUE">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_flip_roll_down">
+            <value name="VALUE">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_flip_roll_up">
+            <value name="VALUE">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_move_before">
+            <value name="VALUE">
+                <shadow type="custom_move_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_move_after">
+            <value name="VALUE">
+                <shadow type="custom_move_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_move_left">
+            <value name="VALUE">
+                <shadow type="custom_move_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_move_right">
+            <value name="VALUE">
+                <shadow type="custom_move_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_move_up">
+            <value name="VALUE">
+                <shadow type="custom_move_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_move_down">
+            <value name="VALUE">
+                <shadow type="custom_move_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_rotate_CW">
+            <value name="VALUE">
+                <shadow type="custom_rotate_number">
+                    <field name="NUM">90</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_rotate_CCW">
+            <value name="VALUE">
+                <shadow type="custom_rotate_number">
+                    <field name="NUM">90</field>
+                </shadow>
+            </value>
+        </block>
+        
+    </category>
+    <category name="摇杆" colour="#5C6682" icon="category_action">
+        <block type="control_omnidirectional">
+            <value name="ACCELERATOR">
+                <shadow type="custom_accelerator">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="COURSE">
+                <shadow type="custom_course">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="PITCH">
+                <shadow type="custom_pitch">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="ROLL">
+                <shadow type="custom_roll">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_accelerator">
+            <value name="VALUE">
+                <shadow type="custom_accelerator">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_course">
+            <value name="VALUE">
+                <shadow type="custom_course">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_pitch">
+            <value name="VALUE">
+                <shadow type="custom_pitch">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_roll">
+            <value name="VALUE">
+                <shadow type="custom_roll">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_accelerator_course">
+            <value name="ACCELERATOR">
+                <shadow type="custom_accelerator">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="COURSE">
+                <shadow type="custom_course">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_accelerator_pitch">
+            <value name="ACCELERATOR">
+                <shadow type="custom_accelerator">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="PITCH">
+                <shadow type="custom_pitch">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_accelerator_roll">
+            <value name="ACCELERATOR">
+                <shadow type="custom_accelerator">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="ROLL">
+                <shadow type="custom_roll">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_course_pitch">
+            <value name="COURSE">
+                <shadow type="custom_course">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="PITCH">
+                <shadow type="custom_pitch">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_course_roll">
+            <value name="COURSE">
+                <shadow type="custom_course">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="ROLL">
+                <shadow type="custom_roll">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="control_pitch_roll">
+            <value name="PITCH">
+                <shadow type="custom_pitch">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="ROLL">
+                <shadow type="custom_roll">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="TIME">
+                <shadow type="custom_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+    </category>
+    <category name="条件" colour="#8249EA" icon="category_condition">
+        <block type="condition_takeoff_ready"></block>
+        <block type="condition_takeoff_not_ready"></block>
+        <block type="condition_in_flight"></block>
+        <block type="condition_not_in_flight"></block>
+        <block type="condition_flip_ready"></block>
+        <block type="condition_flip_not_ready"></block>
+        <block type="condition_is_hover"></block>
+        <block type="condition_low_power"></block>
+        <block type="condition_negate"></block>
+    </category>
+    <category name="流程" colour="#CF6B22" icon="category_circuit">
+        <block type="logic_keep_waiting"></block>
+        <block type="logic_sleep">
+            <value name="VALUE">
+                <shadow type="custom_number">
+                    <field name="NUM">3</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="logic_if"></block>
+        <block type="logic_if_else"></block>
+        <block type="logic_repeat_ext">
+            <value name="COUNT">
+                <shadow type="custom_number">
+                    <field name="NUM">3</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="logic_while"></block>
+        <block type="logic_while_until"></block>
+        <block type="logic_continue"></block>
+        <block type="logic_break"></block>
+    </category>
+</xml>

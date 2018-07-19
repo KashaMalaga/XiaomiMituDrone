@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.libperson.widget.TitleView android:id="@id/ee" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_marginTopPercent="3.65%" />
+    <View android:background="#ffeeeff0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ee" />
+    <View android:id="@id/g4" android:background="#ffeeeff0" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_below="@id/ee" />
+    <ListView android:id="@id/gl" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/ct" android:divider="@drawable/cu" android:dividerHeight="1.0px" android:layout_below="@id/g4" android:headerDividersEnabled="false" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

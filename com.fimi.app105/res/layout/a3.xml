@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:orientation="vertical" android:background="@android:color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageButton android:id="@id/es" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:src="@drawable/bs" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="#e6000000" android:id="@id/et" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fj" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/eu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="169.66dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0dip" android:textColor="#e6000000" android:id="@id/ev" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ew" android:visibility="visible" android:layout_width="150.0dip" android:layout_height="150.0dip" android:src="@drawable/p4" android:layout_centerInParent="true" />
+        <com.fimi.widget.RoundProgressBar android:id="@id/ex" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_centerHorizontal="true" app:roundColor="#4d000000" app:roundProgressColor="#ff000000" app:roundWidth="0.3333dip" app:roundProgressWidth="1.0dip" app:textColor="@color/dh" app:textIsDisplayable="false" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0dip" android:textColor="#ff3a3a3a" android:id="@id/ey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:layout_below="@id/eu" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ez" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/ey" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0dip" android:textColor="#e6000000" android:gravity="center" android:id="@id/f0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff3a3a3a" android:gravity="center" android:id="@id/f1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxWidth="240.0dip" android:layout_below="@id/f0" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <Button android:textSize="12.0dip" android:textColor="@drawable/bi" android:gravity="center" android:id="@id/f2" android:background="@drawable/bh" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="26.599976dip" android:text="@string/ff" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_widthPercent="87.2222%w" app:layout_heightPercent="11.2962%w" style="?android:attr/borderlessButtonStyle" />
+    <TextView android:textSize="10.0dip" android:textColor="#ff3a3a3a" android:gravity="center" android:id="@id/f3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:layout_below="@id/ez" android:layout_centerHorizontal="true" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fimi.album.widget.HackyViewPager android:id="@id/hr" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/album_layout_media_bar_select_bottom" />
+    <include layout="@layout/album_layout_photo_media_top" />
+</RelativeLayout>

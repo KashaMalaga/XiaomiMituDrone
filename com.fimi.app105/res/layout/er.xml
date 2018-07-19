@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/gq" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/t1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:background="@drawable/c5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/ch" android:gravity="center" android:id="@id/t2" android:background="@drawable/al" android:layout_width="86.0dip" android:layout_height="35.0dip" android:text="@string/b8" />
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/ch" android:gravity="center" android:id="@id/t3" android:background="@drawable/c_" android:layout_width="86.0dip" android:layout_height="35.0dip" android:text="@string/fw" />
+    </LinearLayout>
+</FrameLayout>
